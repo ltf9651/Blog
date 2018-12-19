@@ -4,10 +4,10 @@
 $a = 0.7;
 $b = 0.1;
 var_dump(($a + $b) == 0.8); // return false
-var_dump(bcadd($a, $b, 2) == 0.8); // return
+var_dump(bcadd($a, $b, 2) == 0.8); // return true
 ```
 
-* Bool
+* **Bool**
 ``` 
 0 == 0.0 == '' == '0' == false == array() == null
 ```
