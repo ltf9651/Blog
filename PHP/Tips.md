@@ -7,14 +7,14 @@ var_dump(($a + $b) == 0.8); // return false
 var_dump(bcadd($a, $b, 2) == 0.8); // return
 ```
 
-- 标量
-  + Bool
-  ``` 
-  0 == 0.0 == '' == '0' == false == array() == null
-  ```
-  - 常量定义
-    + const：语言结构，可以定义类常量，速度更快
-    + define：函数，编译前处理
+* Bool
+``` 
+0 == 0.0 == '' == '0' == false == array() == null
+```
+
+- 常量定义
+  + const：语言结构，可以定义类常量，速度更快
+  + define：函数，编译前处理
 
 ```
 null-- => null
