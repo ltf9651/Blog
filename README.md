@@ -1,7 +1,8 @@
 # Blog
 - PHP
   - [引用变量](https://github.com/ltf9651/Blog/blob/master/PHP/Reference_variables.md)
-  - [易错点](https://github.com/ltf9651/Blog/blob/master/PHP/Tips.md)
+  - [杂七杂八的笔记](https://github.com/ltf9651/Blog/blob/master/PHP/Tips.md)
+  - [PHP性能优化](https://github.com/ltf9651/Blog/blob/master/PHP/Performance_optimization.md)
 
 - MySQL
   - [数据库设计规范](https://github.com/ltf9651/Blog/blob/master/MySQL/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83.md)
