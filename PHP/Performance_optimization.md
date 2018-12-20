@@ -61,6 +61,6 @@ for($i=0;$i<$strlen;$i++){} // right
 
 * 突破性能瓶颈
   * Opcode Cache缓存
-  * 通过PHP扩展代替原有PHP中的高频业务逻辑
+  * 通过PHP扩展代替原有PHP中的高频业务逻辑（扩展基于C语言，编译快）
   * Runtime优化：HHVM（目前ZendEngine官说已与HHVM相差不大）
   * JIT(期待ing)
