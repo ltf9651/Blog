@@ -3,6 +3,7 @@
   - [引用变量](https://github.com/ltf9651/Blog/blob/master/PHP/Reference_variables.md)
   - [杂七杂八的笔记](https://github.com/ltf9651/Blog/blob/master/PHP/Tips.md)
   - [PHP性能优化](https://github.com/ltf9651/Blog/blob/master/PHP/Performance_optimization.md)
+  - [负载均衡配置](https://github.com/ltf9651/Blog/blob/master/PHP/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1.md)
 
 - MySQL
   - [数据库设计规范](https://github.com/ltf9651/Blog/blob/master/MySQL/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83.md)
