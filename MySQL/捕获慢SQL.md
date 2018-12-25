@@ -1,5 +1,4 @@
 ## 捕获有问题，需要优化的SQL
-#### 启用慢查询日志
 
 `
 set global low_query_log = on; // 开启慢查询日志
