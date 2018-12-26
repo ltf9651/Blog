@@ -32,3 +32,9 @@ pt-query-digest --explain h=127.0.0.1 slow_sql.log > result.rep
 `
 
 `Row_sent: 0` 表示没有使用到索引
+
+
+实时获取有性能问题的SQL
+```
+SELECT id, 'user', 'host', DB, command, 'time', state, info FROM information_schema.PROCESSLIST WHERE time >= 30;
+```
