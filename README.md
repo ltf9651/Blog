@@ -14,7 +14,7 @@
   - [用户模块设计例子](https://github.com/ltf9651/Blog/blob/master/MySQL/UserModuleDesign.md)
   - [分区表](https://github.com/ltf9651/Blog/blob/master/MySQL/PartitionTable.md)
   - [常见业务的SQL优化](https://github.com/ltf9651/Blog/blob/master/MySQL/UsualImprovement.md)
-  - [慢查询的捕获](https://github.com/ltf9651/Blog/blob/51b7cb94cec106dc1dba58deaf3bf70da76aac31/MySQL/CatchSlowSQL.md)
+  - [慢查询的捕获](https://github.com/ltf9651/Blog/blob/master/MySQL/CatchSlowSQL.md)
   
 - Server
   - [负载均衡配置](https://github.com/ltf9651/Blog/blob/master/Server/LoadBalancingConfigInNginx.md)
