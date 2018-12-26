@@ -40,3 +40,31 @@
     - 先找order表， group by customer_id as b
     - 使用 case when 进行分区键 as a
     - a left join b on a.customer_id = b.customer_id
+
+1. 优化 `not in` ， '>'， '<'
+    ```
+    // 查询所有没有产生过消费的用户信息
+    select customer_id, name, email from customer where customer_id NOT IN (
+        select customer_id from payment
+    ) // 对payment表多次读取
+
+    // 优化
+    select a.customer_id, a.name, a.email from customer a 
+    LEFT JOIN
+    payment b
+    ON a.cutomer_id = b.customer_id
+    WHERE b.customer_id IS NULL
+    ```
+
+1. 使用汇总表优化查询
+    ```
+    select count(*) from comment where product_id = 100;
+
+    // 优化
+    create table comment_cnt(product_id INT, cnt INT);
+    select SUM(cnt) from (
+        select cnt from comment_cnt where product_id = 100
+        UNION ALL
+        select COUNT(*) from comment where product_id = 100 and time > DATE(NOW())
+    ) a 
+    ```
