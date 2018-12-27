@@ -23,8 +23,8 @@
   - 使用`TIMESTAMP`或者`DATETIME`存储日期时间
   - `TIMESTAMP`时间范围为1970-01-01 ~ 2038-01-19，超出此范围使用`DATETIME`
 - 对财务相关数据必须使用`decimal`类型
-  - 使用`float`，`double`对丢失精准度
-  - `demical`可存储比`BIGINT`更大的证书数据，比`VARCHAR`更高效
+  - 使用`float`，`double`会丢失精准度
+  - `decimal`比`BIGINT`存储范围大，比`VARCHAR`更高效
 - 避免使用`ENUM`
   - 修改`ENUM`列需要额外占用空间
   - 进行`order by`的效率低
