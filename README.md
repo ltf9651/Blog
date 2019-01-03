@@ -15,6 +15,7 @@
   - [分区表](https://github.com/ltf9651/Blog/blob/master/MySQL/PartitionTable.md)
   - [常见业务的SQL优化](https://github.com/ltf9651/Blog/blob/master/MySQL/UsualImprovement.md)
   - [慢查询的捕获](https://github.com/ltf9651/Blog/blob/master/MySQL/CatchSlowSQL.md)
+  - [数据库备份](https://github.com/ltf9651/Blog/blob/master/MySQL/MySQLBak.md)
   
 - Server
   - [负载均衡配置](https://github.com/ltf9651/Blog/blob/master/Server/LoadBalancingConfigInNginx.md)
