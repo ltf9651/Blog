@@ -68,3 +68,19 @@
         select COUNT(*) from comment where product_id = 100 and time > DATE(NOW())
     ) a 
     ```
+
+1. 千万计表的优化
+    - 表非存储在连续的物理空间上，而是由链式存储在多个碎片的物理空间上
+    - 优化方式1：对表拆分，减少字段数，优化表结构
+      - 水平拆分：RANGE、HASH取模，具有IO瓶颈
+      - 垂直拆分：表拆分后放于多个服务器上
+        - ID 1-10000 `select,limit,order by`
+        - ID 10001-20000 `select,limit,order by`
+        - ID 20001-30000 `select,limit,order by`
+        - 将上述三条结果集合并，再次排序
+    - 优化方式2：调整字段顺序与索引顺序一致
+
+1. `in`和`exists`
+    - `in` 适用于小表
+    - `exists` 适用于大表
+    - `not exists` > `not in`，无论表的大小（`not in`会进行全表扫描，无法使用索引)

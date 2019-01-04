@@ -65,4 +65,9 @@ for($i=0;$i<$strlen;$i++){} // right
   * Opcode Cache缓存
   * 通过PHP扩展代替原有PHP中的高频业务逻辑（扩展基于C语言，编译快）
   * Runtime优化：HHVM（目前ZendEngine官说已与HHVM相差不大）
-  * JIT(期待ing)
+  * JIT
+
+- Session
+  1. PHP的Session存储形式：files, 存储路径: /tmp/
+  1. 如果集群轮询会导致用户可能访问到不同服务器，Session文件不同步
+  1. 将Session存入Redis，Redis部署在一台所有机器可访问的服务器中（Redis本质上是数据库，可通过ip, port 访问，可配置主从···)

@@ -23,3 +23,4 @@
   
 - Server
   - [负载均衡配置](https://github.com/ltf9651/Blog/blob/master/Server/LoadBalancingConfigInNginx.md)
+  - [负载均衡配置](https://github.com/ltf9651/Blog/blob/master/Server/LoadBalancingConfigInNginx.md)
