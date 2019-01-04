@@ -6,6 +6,7 @@
   - [设计模式](https://github.com/ltf9651/PHP-DesignPatterns)
 
 - MySQL
+  - [MySQL相关术语](https://github.com/ltf9651/Blog/blob/master/MySQL/Term.md)
   - [数据库设计规范](https://github.com/ltf9651/Blog/blob/master/MySQL/DatabaseDesignNorms.md)
   - [字段设计规范](https://github.com/ltf9651/Blog/blob/master/MySQL/ColumnDesignNorms.md)
   - [索引设计规范](https://github.com/ltf9651/Blog/blob/master/MySQL/IndexDesignNorms.md)
