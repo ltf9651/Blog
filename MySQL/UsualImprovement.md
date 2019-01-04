@@ -52,7 +52,7 @@
     select a.customer_id, a.name, a.email from customer a 
     LEFT JOIN
     payment b
-    ON a.cutomer_id = b.customer_id
+    ON a.customer_id = b.customer_id
     WHERE b.customer_id IS NULL
     ```
 
