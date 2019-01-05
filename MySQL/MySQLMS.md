@@ -10,11 +10,11 @@
 1. 主服务器中创建用于复制的账号
 1. 全库备份Master并初始化Slave（保持主从数据一致)
 
-M-S架构存在的问题：Master挂掉后需手动切换Slave
+M-S架构存在的问题：Master挂掉后需手动切换到Slave
 
 解决方法：使用虚拟IP连接MySQL，改主从复制为双主热备（其中只有一个主提供写服务，另一个只提供读服务）
 
-keeplived提供VIP，提供健康监控
+keeplived提供VIP，提供健康监控（ARRP协议）
 
 ## MySQL双主
 
