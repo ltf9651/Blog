@@ -36,5 +36,17 @@ pt-query-digest --explain h=127.0.0.1 slow_sql.log > result.rep
 
 实时获取有性能问题的SQL
 ```
-SELECT id, 'user', 'host', DB, command, 'time', state, info FROM information_schema.PROCESSLIST WHERE time >= 30;
+SELECT
+	id,
+	'user',
+	'host',
+	DB,
+	command,
+	'time',
+	state,
+	info
+FROM
+	information_schema. PROCESSLIST
+WHERE
+	time >= 30;
 ```

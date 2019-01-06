@@ -7,7 +7,7 @@
   - [ElasticSearch](https://github.com/ltf9651/Blog/blob/master/PHP/ElasticSearch.md)
 
 - MySQL
-  - [MySQL相关术语](https://github.com/ltf9651/Blog/blob/master/MySQL/Term.md)
+  - [MySQL基础相关](https://github.com/ltf9651/Blog/blob/master/MySQL/Term.md)
   - [数据库设计规范](https://github.com/ltf9651/Blog/blob/master/MySQL/DatabaseDesignNorms.md)
   - [字段设计规范](https://github.com/ltf9651/Blog/blob/master/MySQL/ColumnDesignNorms.md)
   - [索引设计规范](https://github.com/ltf9651/Blog/blob/master/MySQL/IndexDesignNorms.md)
@@ -20,7 +20,8 @@
   - [数据库备份](https://github.com/ltf9651/Blog/blob/master/MySQL/MySQLBak.md)
   - [MySQL主从、双主复制](https://github.com/ltf9651/Blog/blob/master/MySQL/MySQLMS.md)
   - [缓解读写压力](https://github.com/ltf9651/Blog/blob/master/MySQL/RelievePressure.md)
-  
+  - [索引优化](https://github.com/ltf9651/Blog/blob/master/MySQL/BTreeHash.md)
+
 - Server
   - [负载均衡配置](https://github.com/ltf9651/Blog/blob/master/Server/LoadBalancingConfigInNginx.md)
   - [负载均衡配置](https://github.com/ltf9651/Blog/blob/master/Server/LVS.md)

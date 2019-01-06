@@ -2,38 +2,82 @@
 
 1. 大数据量分页
     ```
-    select comment_id, title, content table where id = 1 and state = 1 and p_id = 187985 limit 0, 10;
+    SELECT
+	comment_id,
+	title,
+	content TABLE
+    WHERE
+        id = 1
+    AND state = 1
+    AND p_id = 187985
+    LIMIT 0,
+    10;
     ```
 
     优化方式①：使用联合索引index(p_id, state) (区分度：p_id > state)
     ```
-    select t.comment_id, t.title, t.content from
-        ( select 'comment_id' from table
-        where p_id = 187985 and state = 1 limit 0, 5 ) a
-    join table t on a.comment_id = t.comment_id
+    SELECT
+	t.comment_id,
+	t.title,
+	t.content
+    FROM
+        (
+            SELECT
+                'comment_id'
+            FROM
+                TABLE
+            WHERE
+                p_id = 187985
+            AND state = 1
+            LIMIT 0,
+            5
+        ) a
+    JOIN TABLE t ON a.comment_id = t.comment_id
     ```
 
     优化方式②：循环扫描，记录下次查询的起始id
     ```
-    select comment_id, title, content from table where id > 187985 limit 0, 5;
+    SELECT
+	comment_id,
+	title,
+	content
+    FROM
+        TABLE
+    WHERE
+        id > 187985
+    LIMIT 0,
+    5;
     ```
 
 1. 删除重复数据
     ```
-    create table bak_table_20180101 as select * from table(like table); // 首先进行备份，数据量大使用mysqldump
+    CREATE TABLE bak_table_20180101 AS SELECT
+	*
+    FROM
+        TABLE (LIKE TABLE);
+    // 首先进行备份，数据量大使用mysqldump
     ```
 
     ```
     删除大于最小c_id的数据(保留最早的comment)
-    delete a
-    from table a
-    join(
-        select order_id, p_id, MIN(comment_id) as c_id
-        from table
-        group by order_id, p_id
-        having count(*) >= 2
-    ) b
-    on a.order_id = b.order_id and a.p_id = b.p_id and a.comment_id > b.c_id
+    DELETE a
+    FROM
+        TABLE a
+    JOIN (
+        SELECT
+            order_id,
+            p_id,
+            MIN(comment_id) AS c_id
+        FROM
+            TABLE
+        GROUP BY
+            order_id,
+            p_id
+        HAVING
+            count(*) >= 2
+    ) b ON a.order_id = b.order_id
+    AND a.p_id = b.p_id
+    AND a.comment_id > b.c_id
     ```
 
 1. 分区间统计
@@ -44,29 +88,63 @@
 1. 优化 `not in` ， '>'， '<'
     ```
     // 查询所有没有产生过消费的用户信息
-    select customer_id, name, email from customer where customer_id NOT IN (
-        select customer_id from payment
-    ) // 对payment表多次读取
+    SELECT
+	customer_id,
+	NAME,
+	email
+    FROM
+        customer
+    WHERE
+        customer_id NOT IN (
+            SELECT
+                customer_id
+            FROM
+                payment
+        ) // 对payment表多次读取
 
     // 优化
-    select a.customer_id, a.name, a.email from customer a 
-    LEFT JOIN
-    payment b
-    ON a.customer_id = b.customer_id
-    WHERE b.customer_id IS NULL
+    SELECT
+	a.customer_id,
+	a. NAME,
+	a.email
+    FROM
+        customer a
+    LEFT JOIN payment b ON a.customer_id = b.customer_id
+    WHERE
+        b.customer_id IS NULL
     ```
 
 1. 使用汇总表优化查询
     ```
-    select count(*) from comment where product_id = 100;
+   SELECT
+	count(*)
+    FROM
+        COMMENT
+    WHERE
+        product_id = 100;
 
     // 优化
-    create table comment_cnt(product_id INT, cnt INT);
-    select SUM(cnt) from (
-        select cnt from comment_cnt where product_id = 100
-        UNION ALL
-        select COUNT(*) from comment where product_id = 100 and time > DATE(NOW())
-    ) a 
+    CREATE TABLE comment_cnt (product_id INT, cnt INT);
+
+    SELECT
+        SUM(cnt)
+    FROM
+        (
+            SELECT
+                cnt
+            FROM
+                comment_cnt
+            WHERE
+                product_id = 100
+            UNION ALL
+                SELECT
+                    COUNT(*)
+                FROM
+                    COMMENT
+                WHERE
+                    product_id = 100
+                AND time > DATE(NOW())
+        ) a
     ```
 
 1. 千万计表的优化

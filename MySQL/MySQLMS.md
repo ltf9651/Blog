@@ -18,6 +18,8 @@ keeplived提供VIP，提供健康监控（ARRP协议）
 
 ## MySQL双主
 
+开启binlog同步：`log_slave_updates=1`
+
 M主配置:
 ```
 auto_increment_increment = 2
