@@ -5,7 +5,7 @@
   - 高效，节省带宽
   - 一次解析，多次使用
 - 避免数据类型的隐式转换
-```
+```sql
 SELECT name from table where id = '1' // id(INT) '1'(String) 索引失效
 ```
 - 充分利用已存在的索引
@@ -22,7 +22,7 @@ SELECT name from table where id = '1' // id(INT) '1'(String) 索引失效
   - 无法使用覆盖索引
   - 可减少对表结构变更带来的影响
 - Insert语句禁止省略字段
-```
+```sql
 INSERT INTO table VALUES('1', '2', '3') // wrong
 INSERT INTO table(id1, id2, id3) VALUES('1', '2', '3') // right
 ```
@@ -36,7 +36,7 @@ INSERT INTO table(id1, id2, id3) VALUES('1', '2', '3') // right
   - `join`操作理论上最多可以关联 **61** 张表，建议不超过 **5** 个
 - 减少与数据库的交互次数
   - 数据库更适合处理批量操作
-  ```
+  ```sql
   SELECT name FROM table LIMIT 100
   SELECT name FROM table LIMIT 1
   // 一次取100条进行分页 > 100次取一条
@@ -48,7 +48,7 @@ INSERT INTO table(id1, id2, id3) VALUES('1', '2', '3') // right
   - 消耗CPU、IO、内存
   - 将随机排序在程序代码中执行
 - 在`where`从句中禁止对列进行函数转换和计算
-```
+```sql
 SELECT name FROM table WHERE date(time) = '20180101' //此查询无法使用索引
 SELECT name FROM table WHERE time >= '20180101' AND time < '20180102' //优化
 ```

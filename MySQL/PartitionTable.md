@@ -12,7 +12,7 @@
 
     > 利用HASH函数打散某列使数据均匀分布，一般用于均衡I/O，缺点是如果hash列上数值有太多的重复值，数据会分布不均匀，不容易管理
 
-    ```
+    ```sql
     PARTITION BY HASH(id) PARTITION 5;
     ```
 
@@ -21,7 +21,7 @@
 
     > 适用于分区键为日期的表，查询条件带分区键方便筛选
 
-    ```
+    ```sql
     PARTITION p0 VALUES LESS THAN (1000);
     PARTITION p1 VALUES LESS THAN (2000);
     PARTITION p2 VALUES LESS THAN MAXVALUE;
@@ -32,7 +32,7 @@
 
     > 一般用于数据枚举
 
-    ```
+    ```sql
     PARTITION BY LIST(city_name)(
         PARTITION p0 VALUES in ('China', 'Japan'),
         PARTITION p1 VALUES in ('England', 'German')

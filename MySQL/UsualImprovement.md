@@ -1,7 +1,7 @@
 ## 常见业务的SQL优化
 
 1. 大数据量分页
-    ```
+    ```sql
     SELECT
 	comment_id,
 	title,
@@ -15,7 +15,7 @@
     ```
 
     优化方式①：使用联合索引index(p_id, state) (区分度：p_id > state)
-    ```
+    ```sql
     SELECT
 	t.comment_id,
 	t.title,
@@ -36,7 +36,7 @@
     ```
 
     优化方式②：循环扫描，记录下次查询的起始id
-    ```
+    ```sql
     SELECT
 	comment_id,
 	title,
@@ -50,7 +50,7 @@
     ```
 
 1. 删除重复数据
-    ```
+    ```sql
     CREATE TABLE bak_table_20180101 AS SELECT
 	*
     FROM
@@ -58,8 +58,8 @@
     // 首先进行备份，数据量大使用mysqldump
     ```
 
-    ```
-    删除大于最小c_id的数据(保留最早的comment)
+    ```sql
+    // 删除大于最小c_id的数据(保留最早的comment)
     DELETE a
     FROM
         TABLE a
@@ -86,7 +86,7 @@
     - a left join b on a.customer_id = b.customer_id
 
 1. 优化 `not in` ， '>'， '<'
-    ```
+    ```sql
     // 查询所有没有产生过消费的用户信息
     SELECT
 	customer_id,
@@ -115,7 +115,7 @@
     ```
 
 1. 使用汇总表优化查询
-    ```
+    ```sql
    SELECT
 	count(*)
     FROM

@@ -26,7 +26,7 @@ php内置函数会节省扫描转码的时间，生成的opcode体积也会小�
 * 使用 `try catch`来捕获错误
 
 * 避免在循环内做运算
-```
+```php
 for($i=0;$i<strlen($str);$i++){} // wrong，strlen($str)被重复调用
 
 $strlen = strlen($str);

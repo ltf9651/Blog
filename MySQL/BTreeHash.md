@@ -43,7 +43,7 @@
 
 ### 优化策略
 1. 对索引列不适用函数或表达式
-    ```
+    ```sql
     WHERE to_days(date) - to_days(date) <= 30
 
     // 优化
@@ -62,7 +62,7 @@
     1. order by 的字段全部在关联表的第一张表中
 
 1. 对长字符串使用Hash索引（使用Btree索引模拟Hash索引)
-    ```
+    ```sql
     ALTER INDEX idx_md5 ON TABLE (title_md5);
 
     SELECT
@@ -74,7 +74,7 @@
     AND title = 'string';
     //对title_md5, title同时查询可以避免Hash冲突
 
-    //适用于处理键值的全局匹配，所使用的Hash函数决定索隐剑的大小
+    //适用于处理键值的全局匹配，所使用的Hash函数决定索引键的大小
     ```
 
 1. 利用索引优化锁

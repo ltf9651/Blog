@@ -35,7 +35,7 @@ pt-query-digest --explain h=127.0.0.1 slow_sql.log > result.rep
 
 
 实时获取有性能问题的SQL
-```
+```sql
 SELECT
 	id,
 	'user',

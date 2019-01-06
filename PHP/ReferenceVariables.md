@@ -2,17 +2,17 @@
 定义：用不同的名字访问同一变量内容
  * 以下两段代码$b与$a均指向同一内存空间
  * **Tips**: 使用 unset() 只会取消引用，不会销毁内存空间
-```
+```php
 $a = 1;
 $b = $a;
 ```
-```
+```php
 $a = 1;
 $b = &$a;
 ```
 
 * **Example**
-```
+```php
 $data = ['a', 'b', 'c'];
 foreach ($data as $key => $val) {
     $val = &$data[$key];
