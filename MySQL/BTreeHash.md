@@ -84,7 +84,7 @@
 1. 删除冗余、重复的索引
     - `primary key(id)`, `index(id)`, `unique id(id)`
     - `primary key(id)`, `index(a, id)`
-    - `index(a)`, 'index(a, b)`
+    - `index(a)`, `index(a, b)`
     - `pt-duplicate-key-checker`检查冗余、未被使用过的索引
 
 1. 索引的更新与维护
