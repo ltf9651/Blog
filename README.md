@@ -30,4 +30,4 @@
   - [HTTP网络模型](https://github.com/ltf9651/Blog/blob/master/HTTP/FiveLayers.md)
   - [跨域请求](https://github.com/ltf9651/Blog/blob/master/HTTP/CORS.md)
   - [缓存](https://github.com/ltf9651/Blog/blob/master/HTTP/Cache.md)
-  - [Cookie和Session](https://github.com/ltf9651/Blog/blob/master/HTTP/Cookie.md)
+  - [Cookie](https://github.com/ltf9651/Blog/blob/master/HTTP/Cookie.md)
