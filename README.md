@@ -19,7 +19,7 @@
   - [常见业务的SQL优化](https://github.com/ltf9651/Blog/blob/master/MySQL/UsualImprovement.md)
   - [慢查询的捕获](https://github.com/ltf9651/Blog/blob/master/MySQL/CatchSlowSQL.md)
   - [数据库备份](https://github.com/ltf9651/Blog/blob/master/MySQL/MySQLBak.md)
-  - [MySQL主从、双主复制](https://github.com/ltf9651/Blog/blob/master/MySQL/MySQLMS.md)
+  - [MySQL复制](https://github.com/ltf9651/Blog/blob/master/MySQL/MySQLMS.md)
   - [缓解读写压力](https://github.com/ltf9651/Blog/blob/master/MySQL/RelievePressure.md)
   - [索引优化](https://github.com/ltf9651/Blog/blob/master/MySQL/BTreeHash.md)
 
