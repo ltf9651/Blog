@@ -33,3 +33,6 @@ auto_increment_increment = 2
 auto_increment_offset = 2
 # 配置后自增ID： 2,4,6,8
 ```
+
+- [MYSQL复制](http://www.cnblogs.com/cchust/p/4424576.html)
+- [MYSQL半同步(semi-sync)源码实现](https://www.cnblogs.com/clouddbdever/p/5603286.html)

@@ -5,6 +5,7 @@
   - [PHP性能优化](https://github.com/ltf9651/Blog/blob/master/PHP/PerformanceOptimization.md)
   - [设计模式](https://github.com/ltf9651/PHP-DesignPatterns)
   - [ElasticSearch](https://github.com/ltf9651/Blog/blob/master/PHP/ElasticSearch.md)
+  - [Redis的妙用](https://www.toutiao.com/a6644418545998365191/?tt_from=mobile_qq&utm_campaign=client_share&timestamp=1547033403&app=news_article_lite&utm_source=mobile_qq&iid=56654969600&utm_medium=toutiao_android&group_id=6644418545998365191)
 
 - MySQL
   - [MySQL基础相关](https://github.com/ltf9651/Blog/blob/master/MySQL/Term.md)
@@ -21,6 +22,8 @@
   - [MySQL主从、双主复制](https://github.com/ltf9651/Blog/blob/master/MySQL/MySQLMS.md)
   - [缓解读写压力](https://github.com/ltf9651/Blog/blob/master/MySQL/RelievePressure.md)
   - [索引优化](https://github.com/ltf9651/Blog/blob/master/MySQL/BTreeHash.md)
+
+- MySQL实战45讲笔记
 
 - Server
   - [负载均衡配置](https://github.com/ltf9651/Blog/blob/master/Server/LoadBalancingConfigInNginx.md)
