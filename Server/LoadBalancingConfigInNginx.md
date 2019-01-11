@@ -5,7 +5,7 @@
 
 nginx将请求转发到服务器（修改nginx.conf 文件下的 localtion
 
-```
+```nginx
 localtion / { 
     root /var/www/{path};
     index index.html index.htm
@@ -18,7 +18,7 @@ localtion / {
 ```
 
 负载均衡配置(nginx.conf)
-```
+```nginx
 upstream ltf_swoole_http {
     // 轮询 （ip_hash, url_hash ...
     ip_hash; # 如果是用ip_hash 则不需要分配权重，用户访问自动分配的同一地址
