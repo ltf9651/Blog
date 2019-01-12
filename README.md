@@ -25,6 +25,8 @@
   - [小猪迷MySQL性能优化的最佳20+条经验](https://m.xiaozhumi.com/mysql/75.html)
 
 - MySQL实战45讲笔记
+  - [01 | 基础架构：一条SQL查询语句是如何执行的？](https://github.com/ltf9651/Blog/blob/master/MySQL45/01.md)
+  - [02 | 日志系统：一条SQL更新语句是如何执行的？](https://github.com/ltf9651/Blog/blob/master/MySQL45/01.md)
 
 - Server
   - [负载均衡配置](https://github.com/ltf9651/Blog/blob/master/Server/LoadBalancingConfigInNginx.md)
