@@ -22,7 +22,7 @@
   - [MySQL复制](https://github.com/ltf9651/Blog/blob/master/MySQL/MySQLMS.md)
   - [缓解读写压力](https://github.com/ltf9651/Blog/blob/master/MySQL/RelievePressure.md)
   - [索引优化](https://github.com/ltf9651/Blog/blob/master/MySQL/BTreeHash.md)
-  - [小猪迷MySQL性能优化的最佳20+条经验](https://m.xiaozhumi.com/mysql/75.html)
+  - [MySQL性能优化的最佳20+条经验](https://m.xiaozhumi.com/mysql/75.html)
 
 - MySQL实战45讲笔记
   - [01 | 基础架构：一条SQL查询语句是如何执行的？](https://github.com/ltf9651/Blog/blob/master/MySQL45/01.md)
