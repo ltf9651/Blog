@@ -8,6 +8,23 @@ var_dump(($a + $b) == 0.8); // return false
 var_dump(bcadd($a, $b, 2) == 0.8); // return true
 ```
 
+- 字符串比较时转换
+```php
+switch ("a") {
+    case  0:
+        $a = 1;
+        # code...
+        break;
+
+    default:
+        # code...
+        $a = 2;
+        break;
+}
+var_dump('a' == 0); // bool true
+echo $a; // $a = 1;
+```
+
 * **Bool**
 ``` php
 0 == 0.0 == '' == '0' == false == array() == null
