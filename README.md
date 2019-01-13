@@ -31,6 +31,8 @@
 - Server
   - [负载均衡配置](https://github.com/ltf9651/Blog/blob/master/Server/LoadBalancingConfigInNginx.md)
   - [LVS基础介绍](https://github.com/ltf9651/Blog/blob/master/Server/LVS.md)
+  - [Nginx代理配置和缓存](https://github.com/ltf9651/Blog/blob/master/Server/NginxCache.md)
+  - [Session共享方案](http://www.cnblogs.com/wangtao_20/p/3395518.html#commentform)
 
 - HTTP
   - [HTTP网络模型](https://github.com/ltf9651/Blog/blob/master/HTTP/FiveLayers.md)
