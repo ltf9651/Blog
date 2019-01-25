@@ -44,9 +44,10 @@ INSERT INTO table(id1, id2, id3) VALUES('1', '2', '3') // right
 - 使用`in`代替`or`
   - `in`可以更高效的利用索引
 - 禁止使用`order by rand()`进行随机排序
-  - 此行为会把表中所有符合条件的数据装载到内存中进行白须
+  - 此行为会把表中所有符合条件的数据装载到内存中进行排序
   - 消耗CPU、IO、内存
   - 将随机排序在程序代码中执行
+  - 直接使用`where id = x` 的时候要考虑此条数据被删除的情况
 - 在`where`从句中禁止对列进行函数转换和计算
 ```sql
 SELECT name FROM table WHERE date(time) = '20180101' //此查询无法使用索引
