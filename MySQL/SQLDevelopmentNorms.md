@@ -58,3 +58,4 @@ SELECT name FROM table WHERE time >= '20180101' AND time < '20180102' //优化
   - `Union All`不进行去重
 - 拆分大sql语句为多个小sql
   - 拆分后通过并行执行提高效率（一个SQL只能使用一个CPU)
+- `count(*)`效率大于`count(列)`

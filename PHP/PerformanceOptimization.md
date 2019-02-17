@@ -71,3 +71,30 @@ for($i=0;$i<$strlen;$i++){} // right
   1. PHP的Session存储形式：files, 存储路径: /tmp/
   1. 如果集群轮询会导致用户可能访问到不同服务器，Session文件不同步
   1. 将Session存入Redis，Redis部署在一台所有机器可访问的服务器中（Redis本质上是数据库，可通过ip, port 访问，可配置主从···)
+
+- **高并发**
+  - 解决方案
+    - 数据库缓存，负载均衡
+    - CDN | QPS（单位时间处理请求量） > 800
+    - Memcache，静态HTML缓存| QPS > 1000
+    - 业务分离，分布式存储 | QPS > 2000
+  - 优化
+    - 前端优化
+      - 防盗链处理（去除恶意请求、外站对本站的资源占用）
+        - 通过检测Header头的Referer或者签名检测来源，若不是本站则不让其加载 :配置`ngx_http_referer_module`、`valid_referers`
+        - `配置accesskey`
+      - 减少HTTP请求（合并CSS、JS、图片）
+      - 添加异步请求（需要时再加载）
+      - 启用浏览器缓存和文件压缩
+      - CDN加速（前端资源放入CDN）
+      - 建立独立的图片服务器
+    - 服务端优化
+      - HTML页面静态化(QPS: PHP > HTML)
+      - 并发处理（Swoole，Kafka）
+    - 数据库优化
+      - 数据库缓存（Memcache，Redis）
+      - 分区、分库分表
+      - 读写分离
+      - 负载均衡
+    - Web服务器优化
+      - 负载均衡（反向代理、LVS）
