@@ -1,7 +1,7 @@
 ## 捕获有问题，需要优化的SQL
 
 `
-set global low_query_log = on; // 开启慢查询日志
+set global slow_query_log = on; // 开启慢查询日志
 `
 
 `
@@ -13,7 +13,7 @@ set global log_queries_not_using_indexes = on; // 未使用索引的sql记录
 `
 
 `
-set global log_query_time = 0.001; // 查询时间大于1毫秒的记录
+set global long_query_time = 0.001; // 查询时间大于1毫秒的记录
 `
 
 
