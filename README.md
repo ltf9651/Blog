@@ -32,7 +32,10 @@
   - [05 | 深入浅出索引（下）](https://github.com/ltf9651/Blog/blob/master/MySQL45/05.md)
   - [06 | 全局锁和表锁 ：给表加个字段怎么有这么多阻碍？](https://github.com/ltf9651/Blog/blob/master/MySQL45/06.md)
   - [07 | 行锁功过：怎么减少行锁对性能的影响？](https://github.com/ltf9651/Blog/blob/master/MySQL45/07.md)
-  - [08 | 事务到底是隔离的还是不隔离的？](https://github.com/ltf9651/Blog/blob/master/MySQL45/088.md)
+  - [08 | 事务到底是隔离的还是不隔离的？](https://github.com/ltf9651/Blog/blob/master/MySQL45/08.md)
+  - [09 | 普通索引和唯一索引，应该怎么选择？](https://github.com/ltf9651/Blog/blob/master/MySQL45/09.md)
+  - [10 | MySQL为什么有时候会选错索引？](https://github.com/ltf9651/Blog/blob/master/MySQL45/10.md)
+  - [11 | 怎么给字符串字段加索引？](https://github.com/ltf9651/Blog/blob/master/MySQL45/11.md)
 
 - Server
   - [负载均衡配置](https://github.com/ltf9651/Blog/blob/master/Server/LoadBalancingConfigInNginx.md)
