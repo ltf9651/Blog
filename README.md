@@ -59,4 +59,10 @@
   - 数据结构
   - 算法代码实践
 
+- 设计一个秒杀系统
+  - [01 | 秒杀系统设计的关键点](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/01.md)
+  - [02 | 设计秒杀系统时应该注意的5个架构原则](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/02.md)
+  - [03 | 如何才能做好动静分离？有哪些方案可选?](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/03.md)
+  - [04 | 二八原则：有针对性地处理好系统的“热点数据”](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/04.md)
+
 - [2018年度总结](https://github.com/ltf9651/Blog/blob/master/Summary/2018.md)
