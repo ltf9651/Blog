@@ -50,6 +50,17 @@
     5;
     ```
 
+    优化方式③：延迟查询
+    ```sql
+    select * from table INNER JOIN (select id from table limit 100000, 10) USING(id)
+    ```
+
+    优化方式④：查询分解
+    ```sql
+    select id from table limit 10000, 10;
+    select * from table where id in(213,5141,...)
+    ```
+
 1. 删除重复数据
     ```sql
     CREATE TABLE bak_table_20180101 AS SELECT

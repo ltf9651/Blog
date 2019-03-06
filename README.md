@@ -64,5 +64,8 @@
   - [02 | 设计秒杀系统时应该注意的5个架构原则](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/02.md)
   - [03 | 如何才能做好动静分离？有哪些方案可选?](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/03.md)
   - [04 | 二八原则：有针对性地处理好系统的“热点数据”](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/04.md)
+  - [05 | 流量削峰这事应该怎么做？](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/05.md)
+  - [06 | 影响性能的因素有哪些？又该如何提高系统的性能？](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/06.md)
+  - [07 | 秒杀系统“减库存”设计的核心逻辑](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/07.md)
 
 - [2018年度总结](https://github.com/ltf9651/Blog/blob/master/Summary/2018.md)

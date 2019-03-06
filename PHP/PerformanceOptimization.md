@@ -98,3 +98,5 @@ for($i=0;$i<$strlen;$i++){} // right
       - 负载均衡
     - Web服务器优化
       - 负载均衡（反向代理、LVS）
+
+[php-fpm配置和优化](https://www.zybuluo.com/phper/note/89081)
