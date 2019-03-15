@@ -63,8 +63,6 @@
   - [07 | 减库存操作](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/07.md)
   - [08 | 兜底Plan B](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/08.md)
 
-- Redis核心原理与应用实践
-  - [01 | Redis应用场景](https://github.com/ltf9651/Blog/blob/master/Redis/01.md)
-  - [02 | Redis基础数据结构](https://github.com/ltf9651/Blog/blob/master/Redis/02.md)
+- [Redis深度原理和实战](https://juejin.im/book/5afc2e5f6fb9a07a9b362527)
 
 - [2018年度总结](https://github.com/ltf9651/Blog/blob/master/Summary/2018.md)
