@@ -6,6 +6,7 @@
   - [设计模式](https://github.com/ltf9651/PHP-DesignPatterns)
   - [ElasticSearch](https://github.com/ltf9651/Blog/blob/master/PHP/ElasticSearch.md)
   - [Redis的妙用](https://www.toutiao.com/a6644418545998365191/?tt_from=mobile_qq&utm_campaign=client_share&timestamp=1547033403&app=news_article_lite&utm_source=mobile_qq&iid=56654969600&utm_medium=toutiao_android&group_id=6644418545998365191)
+  - [Redis位图实现系统用户登录统计](https://www.cnblogs.com/bndong/p/7677781.html)
 
 - MySQL
   - 规范与优化
