@@ -5,7 +5,6 @@
   - [PHP性能优化](https://github.com/ltf9651/Blog/blob/master/PHP/PerformanceOptimization.md)
   - [设计模式](https://github.com/ltf9651/PHP-DesignPatterns)
   - [ElasticSearch](https://github.com/ltf9651/Blog/blob/master/PHP/ElasticSearch.md)
-  - [Redis的妙用](https://www.toutiao.com/a6644418545998365191/?tt_from=mobile_qq&utm_campaign=client_share&timestamp=1547033403&app=news_article_lite&utm_source=mobile_qq&iid=56654969600&utm_medium=toutiao_android&group_id=6644418545998365191)
 
 - MySQL
   - 规范与优化
@@ -66,5 +65,7 @@
 - Redis核心原理与应用实践
   - [01 | Redis应用场景](https://github.com/ltf9651/Blog/blob/master/Redis/01.md)
   - [02 | Redis基础数据结构](https://github.com/ltf9651/Blog/blob/master/Redis/02.md)
+  - [Redis的妙用](https://www.toutiao.com/a6644418545998365191/?tt_from=mobile_qq&utm_campaign=client_share&timestamp=1547033403&app=news_article_lite&utm_source=mobile_qq&iid=56654969600&utm_medium=toutiao_android&group_id=6644418545998365191)
+  - [Redis位图的使用](https://www.cnblogs.com/bndong/p/7677781.html#autoid-2-3-0)
 
 - [2018年度总结](https://github.com/ltf9651/Blog/blob/master/Summary/2018.md)
