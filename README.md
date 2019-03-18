@@ -23,6 +23,7 @@
     - [缓解读写压力](https://github.com/ltf9651/Blog/blob/master/MySQL/RelievePressure.md)
     - [索引优化](https://github.com/ltf9651/Blog/blob/master/MySQL/BTreeHash.md)
     - [MySQL性能优化的最佳20+条经验](https://m.xiaozhumi.com/mysql/75.html)
+    
   - 探究原理
     - [01 | 基础架构：一条SQL查询语句是如何执行的？](https://github.com/ltf9651/Blog/blob/master/MySQL45/01.md)
     - [02 | 日志系统：一条SQL更新语句是如何执行的？](https://github.com/ltf9651/Blog/blob/master/MySQL45/02.md)
