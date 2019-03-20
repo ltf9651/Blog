@@ -64,11 +64,17 @@
   - [08 | 兜底Plan B](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/08.md)
 
 - Redis核心原理与应用实践
-  - [Redis应用场景](https://github.com/ltf9651/Blog/blob/master/Redis/01.md)
-  - [Redis基础数据结构](https://github.com/ltf9651/Blog/blob/master/Redis/02.md)
-  - [Redis的妙用](https://www.toutiao.com/a6644418545998365191/?tt_from=mobile_qq&utm_campaign=client_share&timestamp=1547033403&app=news_article_lite&utm_source=mobile_qq&iid=56654969600&utm_medium=toutiao_android&group_id=6644418545998365191)
-  - [位图的使用](https://www.cnblogs.com/bndong/p/7677781.html#autoid-2-3-0)
-  - [HyperLogLog](https://github.com/ltf9651/Blog/blob/master/Redis/03.md)
-  - [布隆过滤器](https://github.com/ltf9651/Blog/blob/master/Redis/04.md)
+  - 应用
+    - [Redis应用场景](https://github.com/ltf9651/Blog/blob/master/Redis/01.md)
+    - [Redis基础数据结构](https://github.com/ltf9651/Blog/blob/master/Redis/02.md)
+    - [Redis的妙用](https://www.toutiao.com/a6644418545998365191/?tt_from=mobile_qq&utm_campaign=client_share&timestamp=1547033403&app=news_article_lite&utm_source=mobile_qq&iid=56654969600&utm_medium=toutiao_android&group_id=6644418545998365191)
+    - [位图的使用](https://www.cnblogs.com/bndong/p/7677781.html#autoid-2-3-0)
+    - [HyperLogLog](https://github.com/ltf9651/Blog/blob/master/Redis/03.md)
+    - [布隆过滤器](https://github.com/ltf9651/Blog/blob/master/Redis/04.md)
+    - [简单限流](https://github.com/ltf9651/Blog/blob/master/Redis/05.md)
+    - [漏斗限流](https://github.com/ltf9651/Blog/blob/master/Redis/06.md)
+    - [附近的人](https://github.com/ltf9651/Blog/blob/master/Redis/07.md)
+    - [高效扫描Key](https://github.com/ltf9651/Blog/blob/master/Redis/08.md)
+  - 原理
 
 - [2018年度总结](https://github.com/ltf9651/Blog/blob/master/Summary/2018.md)
