@@ -42,21 +42,25 @@ $data = ['b','c','c'];
 
 PHP的对象传递即为引用
 ```php
-class Person {
-	public $name;
+class Person
+{
+    public $name;
 }
 
-function setName($p) {
-	$p->name = 'jack';
+function setName($p)
+{
+    $p->name = 'jack';
 }
 
 $person = new Person();
 setName($person);
 echo $person->name; // echo jack
 
-function setName2($v){
-	$v = 2;
+function setName2($v)
+{
+    $v = 2;
 }
+
 $v = 1;
 setName2($v);
 echo $v; // echo 1
