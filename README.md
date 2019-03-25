@@ -5,6 +5,7 @@
   - [PHP性能优化](https://github.com/ltf9651/Blog/blob/master/PHP/PerformanceOptimization.md)
   - [设计模式](https://github.com/ltf9651/PHP-DesignPatterns)
   - [ElasticSearch](https://github.com/ltf9651/Blog/blob/master/PHP/ElasticSearch.md)
+  - [Trait](https://overtrue.me/articles/2016/04/about-php-trait.html)
 
 - MySQL
   - 规范与优化
