@@ -78,5 +78,8 @@
     - [附近的人](https://github.com/ltf9651/Blog/blob/master/Redis/07.md)
     - [高效扫描Key](https://github.com/ltf9651/Blog/blob/master/Redis/08.md)
   - 原理
+    - [线程IO模型](https://github.com/ltf9651/Blog/blob/master/Redis/09.md)
+    - [通信协议](https://github.com/ltf9651/Blog/blob/master/Redis/10.md)
+    - [Redis持久化](https://github.com/ltf9651/Blog/blob/master/Redis/11.md)
 
 - [2018年度总结](https://github.com/ltf9651/Blog/blob/master/Summary/2018.md)
