@@ -6,6 +6,7 @@
   - [设计模式](https://github.com/ltf9651/PHP-DesignPatterns)
   - [ElasticSearch](https://github.com/ltf9651/Blog/blob/master/PHP/ElasticSearch.md)
   - [Trait](https://overtrue.me/articles/2016/04/about-php-trait.html)
+  - [京东高并发抢购系统的核心逻辑与架构实现](https://dbaplus.cn/news-141-710-1.html)
 
 - MySQL
   - 规范与优化
