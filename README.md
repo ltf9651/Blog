@@ -85,5 +85,6 @@
     - [Redis持久化](https://github.com/ltf9651/Blog/blob/master/Redis/11.md)
     - [管道](https://github.com/ltf9651/Blog/blob/master/Redis/12.md)
     - [事务](https://github.com/ltf9651/Blog/blob/master/Redis/13.md)
+    - [PubSub](https://github.com/ltf9651/Blog/blob/master/Redis/14.md)
 
 - [2018年度总结](https://github.com/ltf9651/Blog/blob/master/Summary/2018.md)
