@@ -66,6 +66,7 @@
   - [06 | 性能影响及提高](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/06.md)
   - [07 | 减库存操作](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/07.md)
   - [08 | 兜底Plan B](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/08.md)
+  - [09 | 脑图](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/09.md)
 
 - Redis核心原理与应用实践
   - 应用
