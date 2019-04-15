@@ -7,6 +7,7 @@
   - [ElasticSearch](https://github.com/ltf9651/Blog/blob/master/PHP/ElasticSearch.md)
   - [PHP之Trait](https://overtrue.me/articles/2016/04/about-php-trait.html)
   - [PHP之yield](https://segmentfault.com/a/1190000012334856)
+  - [PHP实现TCP客户端与服务端](https://github.com/ltf9651/Blog/blob/master/PHP/TCP-socket.md)
 
 - MySQL
   - 规范与优化
