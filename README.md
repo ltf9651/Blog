@@ -43,6 +43,7 @@
     - [13 | 数据库表的空间回收](https://github.com/ltf9651/Blog/blob/master/MySQL45/13.md)
     - [14 | 关于count](https://github.com/ltf9651/Blog/blob/master/MySQL45/14.md)
     - [15 | 关于order by](https://github.com/ltf9651/Blog/blob/master/MySQL45/15.md)
+    - [16 | 随机消息](https://github.com/ltf9651/Blog/blob/master/MySQL45/16.md)
 
 - Server
   - [负载均衡配置](https://github.com/ltf9651/Blog/blob/master/Server/LoadBalancingConfigInNginx.md)
@@ -96,5 +97,10 @@
     - [哨兵](https://github.com/ltf9651/Blog/blob/master/Redis/17.md)
     - [Codis](https://github.com/ltf9651/Blog/blob/master/Redis/18.md)
     - [Cluster](https://github.com/ltf9651/Blog/blob/master/Redis/19.md)
+  - 拓展
+    - [Stream](https://github.com/ltf9651/Blog/blob/master/Redis/20.md)
+    - [Info](https://github.com/ltf9651/Blog/blob/master/Redis/21.md)
+    - [分布式锁](https://github.com/ltf9651/Blog/blob/master/Redis/22.md)
+    - [过期策略](https://github.com/ltf9651/Blog/blob/master/Redis/23.md)
 
 - [2018年度总结](https://github.com/ltf9651/Blog/blob/master/Summary/2018.md)
