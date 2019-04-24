@@ -1,5 +1,4 @@
 # Blog
-[[TOC]]
 ## PHP
   - [引用变量](https://github.com/ltf9651/Blog/blob/master/PHP/ReferenceVariables.md)
   - [数据类型的一点坑](https://github.com/ltf9651/Blog/blob/master/PHP/Tips.md)
@@ -105,5 +104,7 @@
     - [过期策略](https://github.com/ltf9651/Blog/blob/master/Redis/23.md)
     - [LRU](https://github.com/ltf9651/Blog/blob/master/Redis/24.md)
     - [懒惰删除](https://github.com/ltf9651/Blog/blob/master/Redis/25.md)
+    - [安全](https://github.com/ltf9651/Blog/blob/master/Redis/26.md)
+    - [安全通信](https://github.com/ltf9651/Blog/blob/master/Redis/27.md)
 
 ## [2018年度总结](https://github.com/ltf9651/Blog/blob/master/Summary/2018.md)
