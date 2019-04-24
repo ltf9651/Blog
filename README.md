@@ -1,5 +1,6 @@
 # Blog
-- PHP
+[[TOC]]
+## PHP
   - [引用变量](https://github.com/ltf9651/Blog/blob/master/PHP/ReferenceVariables.md)
   - [数据类型的一点坑](https://github.com/ltf9651/Blog/blob/master/PHP/Tips.md)
   - [PHP性能优化](https://github.com/ltf9651/Blog/blob/master/PHP/PerformanceOptimization.md)
@@ -9,7 +10,7 @@
   - [PHP之yield](https://segmentfault.com/a/1190000012334856)
   - [PHP实现TCP客户端与服务端](https://github.com/ltf9651/Blog/blob/master/PHP/TCP-socket.md)
 
-- MySQL
+## MySQL
   - 规范与优化
     - [MySQL基础相关](https://github.com/ltf9651/Blog/blob/master/MySQL/Term.md)
     - [数据库设计规范](https://github.com/ltf9651/Blog/blob/master/MySQL/DatabaseDesignNorms.md)
@@ -45,23 +46,23 @@
     - [15 | 关于order by](https://github.com/ltf9651/Blog/blob/master/MySQL45/15.md)
     - [16 | 随机消息](https://github.com/ltf9651/Blog/blob/master/MySQL45/16.md)
 
-- Server
+## Server
   - [负载均衡配置](https://github.com/ltf9651/Blog/blob/master/Server/LoadBalancingConfigInNginx.md)
   - [LVS基础介绍](https://github.com/ltf9651/Blog/blob/master/Server/LVS.md)
   - [Nginx代理配置和缓存](https://github.com/ltf9651/Blog/blob/master/Server/NginxCache.md)
   - [Session共享方案](http://www.cnblogs.com/wangtao_20/p/3395518.html#commentform)
 
-- HTTP
+## HTTP
   - [HTTP网络模型](https://github.com/ltf9651/Blog/blob/master/HTTP/FiveLayers.md)
   - [跨域请求](https://github.com/ltf9651/Blog/blob/master/HTTP/CORS.md)
   - [缓存](https://github.com/ltf9651/Blog/blob/master/HTTP/Cache.md)
   - [Cookie](https://github.com/ltf9651/Blog/blob/master/HTTP/Cookie.md)
 
-- 数据结构与算法
+## 数据结构与算法
   - [01 | 复杂度分析
 ](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/Beauty/01.md)
 
-- 秒杀系统设计
+## 秒杀系统设计
   - [01 | 秒杀系统设计的关键点](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/01.md)
   - [02 | 架构原则](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/02.md)
   - [03 | 动静分离方案](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/03.md)
@@ -72,7 +73,7 @@
   - [08 | 兜底Plan B](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/08.md)
   - [09 | 脑图](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/09.md)
 
-- Redis核心原理与应用实践
+## Redis核心原理与应用实践
   - 应用
     - [Redis应用场景](https://github.com/ltf9651/Blog/blob/master/Redis/01.md)
     - [Redis基础数据结构](https://github.com/ltf9651/Blog/blob/master/Redis/02.md)
@@ -105,4 +106,4 @@
     - [LRU](https://github.com/ltf9651/Blog/blob/master/Redis/24.md)
     - [懒惰删除](https://github.com/ltf9651/Blog/blob/master/Redis/25.md)
 
-- [2018年度总结](https://github.com/ltf9651/Blog/blob/master/Summary/2018.md)
+## [2018年度总结](https://github.com/ltf9651/Blog/blob/master/Summary/2018.md)
