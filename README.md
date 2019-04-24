@@ -102,5 +102,7 @@
     - [Info](https://github.com/ltf9651/Blog/blob/master/Redis/21.md)
     - [分布式锁](https://github.com/ltf9651/Blog/blob/master/Redis/22.md)
     - [过期策略](https://github.com/ltf9651/Blog/blob/master/Redis/23.md)
+    - [LRU](https://github.com/ltf9651/Blog/blob/master/Redis/24.md)
+    - [懒惰删除](https://github.com/ltf9651/Blog/blob/master/Redis/25.md)
 
 - [2018年度总结](https://github.com/ltf9651/Blog/blob/master/Summary/2018.md)
