@@ -46,6 +46,7 @@
     - [16 | 随机消息](https://github.com/ltf9651/Blog/blob/master/MySQL45/16.md)
 
 ## Server
+  - [Nginx](https://github.com/ltf9651/Nginx_Study)
   - [负载均衡配置](https://github.com/ltf9651/Blog/blob/master/Server/LoadBalancingConfigInNginx.md)
   - [LVS基础介绍](https://github.com/ltf9651/Blog/blob/master/Server/LVS.md)
   - [Nginx代理配置和缓存](https://github.com/ltf9651/Blog/blob/master/Server/NginxCache.md)
