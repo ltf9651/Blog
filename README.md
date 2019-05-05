@@ -111,5 +111,6 @@
     - [命令行工具](https://github.com/ltf9651/Blog/blob/master/Redis/29.md)
   - 源码
     - [字符串内部结构](https://github.com/ltf9651/Blog/blob/master/Redis/30.md)
+    - [字典内部结构](https://github.com/ltf9651/Blog/blob/master/Redis/31.md)
 
 ## [2018年度总结](https://github.com/ltf9651/Blog/blob/master/Summary/2018.md)
