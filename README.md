@@ -112,5 +112,8 @@
   - 源码
     - [字符串内部结构](https://github.com/ltf9651/Blog/blob/master/Redis/30.md)
     - [字典内部结构](https://github.com/ltf9651/Blog/blob/master/Redis/31.md)
+    - [压缩列表](https://github.com/ltf9651/Blog/blob/master/Redis/32.md)
+    - [快速列表](https://github.com/ltf9651/Blog/blob/master/Redis/33.md)
+    - [跳跃列表](https://github.com/ltf9651/Blog/blob/master/Redis/34.md)
 
 ## [2018年度总结](https://github.com/ltf9651/Blog/blob/master/Summary/2018.md)
