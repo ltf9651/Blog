@@ -115,5 +115,11 @@
     - [压缩列表](https://github.com/ltf9651/Blog/blob/master/Redis/32.md)
     - [快速列表](https://github.com/ltf9651/Blog/blob/master/Redis/33.md)
     - [跳跃列表](https://github.com/ltf9651/Blog/blob/master/Redis/34.md)
+    - [进奏列表](https://github.com/ltf9651/Blog/blob/master/Redis/35.md)
+    - [基数树](https://github.com/ltf9651/Blog/blob/master/Redis/36.md)
+    - [LFU vs LRU](https://github.com/ltf9651/Blog/blob/master/Redis/37.md)
+    - [异步删除](https://github.com/ltf9651/Blog/blob/master/Redis/38.md)
+    - [深入字典遍历](https://github.com/ltf9651/Blog/blob/master/Redis/39.md)
+    - [HyperLogLog 内部](https://github.com/ltf9651/Blog/blob/master/Redis/40.md)
 
 ## [2018年度总结](https://github.com/ltf9651/Blog/blob/master/Summary/2018.md)
