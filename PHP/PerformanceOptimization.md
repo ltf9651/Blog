@@ -80,6 +80,7 @@ for($i=0;$i<$strlen;$i++){} // right
     - 业务分离，分布式存储 | QPS > 2000
   - 优化
     - 前端优化
+      - 多域名存储多图（浏览器对单域名图片加载数量有限制，图片存在多域名可提高浏览器并行加载速度）
       - 防盗链处理（去除恶意请求、外站对本站的资源占用）
         - 通过检测Header头的Referer或者签名检测来源，若不是本站则不让其加载 :配置`ngx_http_referer_module`、`valid_referers`
         - `配置accesskey`
