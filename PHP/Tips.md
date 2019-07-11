@@ -64,3 +64,7 @@ echo $k1 . ' and ' . $k2; //return 'v1 and v2'
 #### epoll
 1. 每当fd就绪，采用系统的回调函数直接将fd放入，效率高
 1. 无最大连接限制
+
+### Crontab
+1. 单台服务器Crontab脚本太多会导致脚本中断
+1. Crontab任务数量多应分配到负载均衡的服务器上
