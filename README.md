@@ -53,7 +53,7 @@
   - [Session共享方案](http://www.cnblogs.com/wangtao_20/p/3395518.html#commentform)
 
 ## HTTP
-  - [HTTP网络模型](https://github.com/ltf9651/Blog/blob/master/HTTP/FiveLayers.md)
+  - [HTTP网络模型](https://github.com/ltf9651/Blog/blob/master/HTTP/Layers.md)
   - [跨域请求](https://github.com/ltf9651/Blog/blob/master/HTTP/CORS.md)
   - [缓存](https://github.com/ltf9651/Blog/blob/master/HTTP/Cache.md)
   - [Cookie](https://github.com/ltf9651/Blog/blob/master/HTTP/Cookie.md)

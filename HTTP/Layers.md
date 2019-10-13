@@ -1,4 +1,4 @@
-## 5层网络模型
+## 网络模型
 
 ![网络请求流程](https://github.com/ltf9651/Blog/blob/master/HTTP/HTTP_Process.png)
 
