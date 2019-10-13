@@ -5,6 +5,7 @@
 
 ![网络模型分层](https://github.com/ltf9651/Blog/blob/master/HTTP/Layers.png)
 
+
 1. 物理层：定义物理设备如何传输数据
 1. 数据链路层：在通信的实体间建立数据链路连接
 1. 网络层：为数据在结点间传输创建逻辑链路
@@ -17,3 +18,7 @@
 1.客户机向服务端发送HTTP协议请求
 1.服务器向客户机发送HTTP协议应答包
 1.断开连接，客户端渲染HTMl文档
+
+![](https://github.com/ltf9651/Blog/blob/master/HTTP/TcpShake.png)
+
+![](https://github.com/ltf9651/Blog/blob/master/HTTP/Http.png)
