@@ -125,6 +125,8 @@
     - [HyperLogLog 内部](https://github.com/ltf9651/Blog/blob/master/Redis/40.md)
 
 ## 计算机基础
+  - C语言
+  - Linux
   - CSAPP
   - WebPerformance
     - [数据的网络传输](https://github.com/ltf9651/Blog/blob/master/WebPerformance/01.md)
