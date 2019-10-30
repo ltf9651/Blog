@@ -1,16 +1,19 @@
 # Blog
+
 ## PHP
-  - [引用变量](https://github.com/ltf9651/Blog/blob/master/PHP/ReferenceVariables.md)
-  - [数据类型的一点坑](https://github.com/ltf9651/Blog/blob/master/PHP/Tips.md)
-  - [PHP性能优化](https://github.com/ltf9651/Blog/blob/master/PHP/PerformanceOptimization.md)
-  - [设计模式](https://github.com/ltf9651/PHP-DesignPatterns)
-  - [ElasticSearch](https://github.com/ltf9651/Blog/blob/master/PHP/ElasticSearch.md)
-  - [PHP之Trait](https://overtrue.me/articles/2016/04/about-php-trait.html)
-  - [PHP之yield](https://segmentfault.com/a/1190000012334856)
-  - [PHP实现TCP客户端与服务端](https://github.com/ltf9651/Blog/blob/master/PHP/TCP-socket.md)
+
+  + [引用变量](https://github.com/ltf9651/Blog/blob/master/PHP/ReferenceVariables.md)
+  + [数据类型的一点坑](https://github.com/ltf9651/Blog/blob/master/PHP/Tips.md)
+  + [PHP性能优化](https://github.com/ltf9651/Blog/blob/master/PHP/PerformanceOptimization.md)
+  + [设计模式](https://github.com/ltf9651/PHP-DesignPatterns)
+  + [ElasticSearch](https://github.com/ltf9651/Blog/blob/master/PHP/ElasticSearch.md)
+  + [PHP之Trait](https://overtrue.me/articles/2016/04/about-php-trait.html)
+  + [PHP之yield](https://segmentfault.com/a/1190000012334856)
+  + [PHP实现TCP客户端与服务端](https://github.com/ltf9651/Blog/blob/master/PHP/TCP-socket.md)
 
 ## MySQL
-  - 规范与优化
+
+  + 规范与优化
     - [MySQL基础相关](https://github.com/ltf9651/Blog/blob/master/MySQL/Term.md)
     - [数据库设计规范](https://github.com/ltf9651/Blog/blob/master/MySQL/DatabaseDesignNorms.md)
     - [字段设计规范](https://github.com/ltf9651/Blog/blob/master/MySQL/ColumnDesignNorms.md)
@@ -26,8 +29,10 @@
     - [缓解读写压力](https://github.com/ltf9651/Blog/blob/master/MySQL/RelievePressure.md)
     - [索引优化](https://github.com/ltf9651/Blog/blob/master/MySQL/BTreeHash.md)
     - [MySQL性能优化的最佳20+条经验](https://m.xiaozhumi.com/mysql/75.html)
+
     
-  - 探究原理
+
+  + 探究原理
     - [01 | 一条SQL查询语句是如何执行的？](https://github.com/ltf9651/Blog/blob/master/MySQL45/01.md)
     - [02 | 一条SQL更新语句是如何执行的？](https://github.com/ltf9651/Blog/blob/master/MySQL45/02.md)
     - [03 | 事务隔离](https://github.com/ltf9651/Blog/blob/master/MySQL45/03.md)
@@ -46,37 +51,42 @@
     - [16 | 随机消息](https://github.com/ltf9651/Blog/blob/master/MySQL45/16.md)
 
 ## Server
-  - [Nginx](https://github.com/ltf9651/Nginx_Study)
-  - [负载均衡配置](https://github.com/ltf9651/Blog/blob/master/Server/LoadBalancingConfigInNginx.md)
-  - [LVS基础介绍](https://github.com/ltf9651/Blog/blob/master/Server/LVS.md)
-  - [Nginx代理配置和缓存](https://github.com/ltf9651/Blog/blob/master/Server/NginxCache.md)
-  - [Session共享方案](http://www.cnblogs.com/wangtao_20/p/3395518.html#commentform)
+
+  + [Nginx](https://github.com/ltf9651/Nginx_Study)
+  + [负载均衡配置](https://github.com/ltf9651/Blog/blob/master/Server/LoadBalancingConfigInNginx.md)
+  + [LVS基础介绍](https://github.com/ltf9651/Blog/blob/master/Server/LVS.md)
+  + [Nginx代理配置和缓存](https://github.com/ltf9651/Blog/blob/master/Server/NginxCache.md)
+  + [Session共享方案](http://www.cnblogs.com/wangtao_20/p/3395518.html#commentform)
 
 ## HTTP
-  - [HTTP网络模型](https://github.com/ltf9651/Blog/blob/master/HTTP/Layers.md)
-  - [跨域请求](https://github.com/ltf9651/Blog/blob/master/HTTP/CORS.md)
-  - [缓存](https://github.com/ltf9651/Blog/blob/master/HTTP/Cache.md)
-  - [Cookie](https://github.com/ltf9651/Blog/blob/master/HTTP/Cookie.md)
+
+  + [HTTP网络模型](https://github.com/ltf9651/Blog/blob/master/HTTP/Layers.md)
+  + [跨域请求](https://github.com/ltf9651/Blog/blob/master/HTTP/CORS.md)
+  + [缓存](https://github.com/ltf9651/Blog/blob/master/HTTP/Cache.md)
+  + [Cookie](https://github.com/ltf9651/Blog/blob/master/HTTP/Cookie.md)
 
 ## 数据结构与算法
-  - [双向链表实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/DoubleLinkedList.py)
-  - [FIFO缓存实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/FIFOCache.py)
-  - [LFU缓存实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/LFUCache.py)
-  - [LRU缓存实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/LRUCache.py)
+
+  + [双向链表实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/DoubleLinkedList.py)
+  + [FIFO缓存实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/FIFOCache.py)
+  + [LFU缓存实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/LFUCache.py)
+  + [LRU缓存实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/LRUCache.py)
 
 ## 秒杀系统设计
-  - [01 | 秒杀系统设计的关键点](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/01.md)
-  - [02 | 架构原则](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/02.md)
-  - [03 | 动静分离方案](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/03.md)
-  - [04 | 处理高频热点数据](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/04.md)
-  - [05 | 流量削峰](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/05.md)
-  - [06 | 性能影响及提高](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/06.md)
-  - [07 | 减库存操作](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/07.md)
-  - [08 | 兜底Plan B](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/08.md)
-  - [09 | 脑图](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/09.md)
+
+  + [01 | 秒杀系统设计的关键点](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/01.md)
+  + [02 | 架构原则](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/02.md)
+  + [03 | 动静分离方案](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/03.md)
+  + [04 | 处理高频热点数据](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/04.md)
+  + [05 | 流量削峰](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/05.md)
+  + [06 | 性能影响及提高](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/06.md)
+  + [07 | 减库存操作](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/07.md)
+  + [08 | 兜底Plan B](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/08.md)
+  + [09 | 脑图](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/09.md)
 
 ## Redis核心原理与应用实践
-  - 应用
+
+  + 应用
     - [Redis应用场景](https://github.com/ltf9651/Blog/blob/master/Redis/01.md)
     - [Redis基础数据结构](https://github.com/ltf9651/Blog/blob/master/Redis/02.md)
     - [Redis的妙用](https://www.toutiao.com/a6644418545998365191/?tt_from=mobile_qq&utm_campaign=client_share&timestamp=1547033403&app=news_article_lite&utm_source=mobile_qq&iid=56654969600&utm_medium=toutiao_android&group_id=6644418545998365191)
@@ -87,7 +97,7 @@
     - [漏斗限流](https://github.com/ltf9651/Blog/blob/master/Redis/06.md)
     - [附近的人](https://github.com/ltf9651/Blog/blob/master/Redis/07.md)
     - [高效扫描Key](https://github.com/ltf9651/Blog/blob/master/Redis/08.md)
-  - 原理
+  + 原理
     - [线程IO模型](https://github.com/ltf9651/Blog/blob/master/Redis/09.md)
     - [通信协议](https://github.com/ltf9651/Blog/blob/master/Redis/10.md)
     - [Redis持久化](https://github.com/ltf9651/Blog/blob/master/Redis/11.md)
@@ -96,11 +106,11 @@
     - [PubSub](https://github.com/ltf9651/Blog/blob/master/Redis/14.md)
     - [内存分配](https://github.com/ltf9651/Blog/blob/master/Redis/15.md)
     - [主从同步](https://github.com/ltf9651/Blog/blob/master/Redis/16.md)
-  - 集群
+  + 集群
     - [哨兵](https://github.com/ltf9651/Blog/blob/master/Redis/17.md)
     - [Codis](https://github.com/ltf9651/Blog/blob/master/Redis/18.md)
     - [Cluster](https://github.com/ltf9651/Blog/blob/master/Redis/19.md)
-  - 拓展
+  + 拓展
     - [Stream](https://github.com/ltf9651/Blog/blob/master/Redis/20.md)
     - [Info](https://github.com/ltf9651/Blog/blob/master/Redis/21.md)
     - [分布式锁](https://github.com/ltf9651/Blog/blob/master/Redis/22.md)
@@ -111,7 +121,7 @@
     - [Spiped](https://github.com/ltf9651/Blog/blob/master/Redis/27.md)
     - [LUA](https://github.com/ltf9651/Blog/blob/master/Redis/28.md)
     - [命令行工具](https://github.com/ltf9651/Blog/blob/master/Redis/29.md)
-  - 源码
+  + 源码
     - [字符串内部结构](https://github.com/ltf9651/Blog/blob/master/Redis/30.md)
     - [字典内部结构](https://github.com/ltf9651/Blog/blob/master/Redis/31.md)
     - [压缩列表](https://github.com/ltf9651/Blog/blob/master/Redis/32.md)
@@ -125,11 +135,13 @@
     - [HyperLogLog 内部](https://github.com/ltf9651/Blog/blob/master/Redis/40.md)
 
 ## 计算机基础
-  - C语言
-  - Linux
-  - CSAPP
-  - WebPerformance
+
+  + C语言
+  + Linux
+  + CSAPP
+  + WebPerformance
     - [数据的网络传输](https://github.com/ltf9651/Blog/blob/master/WebPerformance/01.md)
     - [服务器并发处理能力](https://github.com/ltf9651/Blog/blob/master/WebPerformance/02.md)
     - [动态脚本加速](https://github.com/ltf9651/Blog/blob/master/WebPerformance/03.md)
     - [服务器缓存](https://github.com/ltf9651/Blog/blob/master/WebPerformance/04.md)
+
