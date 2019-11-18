@@ -31,8 +31,6 @@
     - [索引优化](https://github.com/ltf9651/Blog/blob/master/MySQL/BTreeHash.md)
     - [MySQL性能优化的最佳20+条经验](https://m.xiaozhumi.com/mysql/75.html)
 
-    
-
   + 探究原理
     - [01 | 一条SQL查询语句是如何执行的？](https://github.com/ltf9651/Blog/blob/master/MySQL45/01.md)
     - [02 | 一条SQL更新语句是如何执行的？](https://github.com/ltf9651/Blog/blob/master/MySQL45/02.md)
@@ -85,7 +83,7 @@
   + [08 | 兜底Plan B](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/08.md)
   + [09 | 脑图](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/09.md)
 
-## Redis核心原理与应用实践
+## Redis 核心原理与应用实践
 
   + 应用
     - [Redis应用场景](https://github.com/ltf9651/Blog/blob/master/Redis/01.md)
@@ -137,7 +135,7 @@
 
 ## 计算机基础
 
-  + C语言
+  + C 语言
   + Linux
   + CSAPP
   + WebPerformance
@@ -145,4 +143,3 @@
     - [服务器并发处理能力](https://github.com/ltf9651/Blog/blob/master/WebPerformance/02.md)
     - [动态脚本加速](https://github.com/ltf9651/Blog/blob/master/WebPerformance/03.md)
     - [服务器缓存](https://github.com/ltf9651/Blog/blob/master/WebPerformance/04.md)
-
