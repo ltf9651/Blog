@@ -153,3 +153,5 @@
   - [05 | 日志存储](https://github.com/ltf9651/Blog/blob/master/Kafka/05.md)
   - [06 | 深入服务端](https://github.com/ltf9651/Blog/blob/master/Kafka/06.md)
   - [07 | 深入客户端](https://github.com/ltf9651/Blog/blob/master/Kafka/07.md)
+  - [08 | 可靠性探究](https://github.com/ltf9651/Blog/blob/master/Kafka/08.md)
+  - [09 | Kafka 应用](https://github.com/ltf9651/Blog/blob/master/Kafka/09.md)
