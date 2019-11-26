@@ -1,6 +1,6 @@
 # ZVAL
 
-* 可以表示PHP里任一变量
+* 可以表示 PHP 里任一变量
 
 ``` c
 // zend_types.h
@@ -139,11 +139,10 @@ struct _zend_array {
  *                 | Bucket[ht->nTableSize-1]    |
  *                 +=============================+
 
- 1、对于key是数字的，就不用涉及到hash运算，此时使用的是packed array； 
- 如果key的值较大，或者间隔较大，还是会退化成hash array; 
+ 1、对于key是数字的，就不用涉及到hash运算，此时使用的是packed array；
+ 如果key的值较大，或者间隔较大，还是会退化成hash array;
  packed array 能够节省索引部分占用的内存，是一个性能上的优化；
 
 2、对于key是非数字的，必须用hash算法进行计算出来它所在bucket的位置，那么索引数组是必不可少的，只能是hash array。
  */
 ```
-
