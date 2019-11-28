@@ -66,6 +66,7 @@
 
 ## 数据结构与算法
 
+  + [双向链表实现](https://github.com/ltf9651/Blog/tree/master/DS&Algorithms/Beauty)
   + [双向链表实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/DoubleLinkedList.py)
   + [FIFO缓存实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/FIFOCache.py)
   + [LFU缓存实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/LFUCache.py)
