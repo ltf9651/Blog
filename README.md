@@ -1,4 +1,3 @@
-[[TOC]]
 # Blog
 
 ## PHP
