@@ -94,3 +94,77 @@ echo $k1 . ' and ' . $k2; //return 'v1 and v2'
 - 写时复制：多个变量可能指向同一个 value，然后通过 refcount 统计引用数，这时候如果其中一个变量试图更改 value 的内容则会重新拷贝一份 value 修改，同时断开旧的指向，写时复制的机制在计算机系统中有非常广的应用，它只有在必要的时候（写）才会发生硬拷贝，可以很好的提高效率
 - 有一个保存配置的 array 数组，这个配置信息很多，数组占用内存也会多一些。当我们向函数传值的时候你是不是考虑过会多占用一个配置数组内存的问题。毕竟函数传值使用的是 copy 的方式。看到写时复制，你就大可放心，完全可以直接把整个数组传进去，只要在函数内部没有对数组进行写入操作，那就是零拷贝，只是使原数组的引用计数值 +1，不会有内存上涨问题
 - 垃圾回收：unset 一个变量之后之后由于数组中有子元素指向该变量，所以 refcount > 0，无法通过简单的 gc 机制回收，这种变量就是垃圾，垃圾回收器要处理的就是这种情况，目前垃圾只会出现在 array、object 两种类型中，所以只会针对这两种情况作特殊处理：当销毁一个变量时，如果发现减掉 refcount 后仍然大于 0，且类型是 IS_ARRAY、IS_OBJECT 则将此 value 放入 gc 可能垃圾双向链表中，等这个链表达到一定数量后启动检查程序将所有变量检查一遍，如果确定是垃圾则销毁释放
+
+### Clone
+
+```php
+<?php
+class B{
+ public $val = 10;
+}
+class A{
+ public $val = 20;
+ public $b;
+ public function __construct(){
+  $this->b = new B();
+ }
+}
+$obj_a = new A();
+$obj_b = clone $obj_a;
+$obj_a->val = 30;
+$obj_a->b->val = 40;
+var_dump($obj_a);
+echo '<br>';
+var_dump($obj_b);
+/**
+object(A)[1]
+ public 'val' => int 30
+ public 'b' =>
+ object(B)[2]
+  public 'val' => int 40
+
+object(A)[3]
+ public 'val' => int 20
+ public 'b' =>
+ object(B)[2]
+  public 'val' => int 40  b->val受影响
+*/
+```
+
+```php
+<?php
+class B{
+ public $val = 10;
+}
+class A{
+ public $val = 20;
+ public $b;
+ public function __construct(){
+  $this->b = new B();
+ }
+
+ public function __clone(){
+  $this->b = clone $this->b; //深度克隆
+ }
+}
+$obj_a = new A();
+$obj_b = clone $obj_a;
+$obj_a->val = 30;
+$obj_a->b->val = 40;
+var_dump($obj_a);
+echo '<br>';
+var_dump($obj_b);
+/**
+object(A)[1]
+ public 'val' => int 30
+ public 'b' =>
+ object(B)[2]
+  public 'val' => int 40
+
+object(A)[3]
+ public 'val' => int 20
+ public 'b' =>
+ object(B)[4]
+  public 'val' => int 10  b->val不受影响
+*/
+```
