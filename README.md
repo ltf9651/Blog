@@ -152,9 +152,3 @@
   + [07 | 深入客户端](https://github.com/ltf9651/Blog/blob/master/Kafka/07.md)
   + [08 | 可靠性探究](https://github.com/ltf9651/Blog/blob/master/Kafka/08.md)
   + [09 | Kafka 应用](https://github.com/ltf9651/Blog/blob/master/Kafka/09.md)
-
-## 网络协议
-
-  + [01 | 协议概述](https://github.com/ltf9651/Blog/blob/master/NetworkProtocol/01.md)
-  + [02 | 网络分层的真实含义](https://github.com/ltf9651/Blog/blob/master/NetworkProtocol/02.md)
-
