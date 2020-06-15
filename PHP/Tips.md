@@ -73,6 +73,7 @@ echo $k1 . ' and ' . $k2; //return 'v1 and v2'
 
 1. 单台服务器 Crontab 脚本太多会导致脚本中断
 1. Crontab 任务数量多应分配到负载均衡的服务器上
+1. flock 保障脚本不重复进行
 
 ### 代码规范
 
