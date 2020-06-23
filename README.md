@@ -172,3 +172,5 @@
   + [14 | 高性能I/O框架库Libevent](https://github.com/ltf9651/Blog/blob/master/Linux/14.md)
   + [15 | 多进程编程](https://github.com/ltf9651/Blog/blob/master/Linux/15.md)
   + [16 | 多线程编程](https://github.com/ltf9651/Blog/blob/master/Linux/16.md)
+  + [17 | 进程池和线程池](https://github.com/ltf9651/Blog/blob/master/Linux/17.md)
+  + [18 | 服务器调试和测试](https://github.com/ltf9651/Blog/blob/master/Linux/18.md)
