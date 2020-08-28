@@ -12,7 +12,9 @@ PHP_FUNCTION(confirm_helloworld_compiled)
 	size_t arg_len, len;
 	zend_string *strg;
 
+	// "s" 字符串
 	if (zend_parse_parameters(ZEND_NUM_ARGS(), "s", &arg, &arg_len) == FAILURE) {
+		//解析参数
 		return;
 	}
 
