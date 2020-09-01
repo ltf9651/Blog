@@ -28,7 +28,7 @@ typedef union _zend_value {
 
 union {
     struct {
-        ZEND_EDIAN_LOHI_4 (
+        ZEND_ENDIAN_LOHI_4 (
             zend_uchar  type, // 区分类型
             zend_uchar  type_flags, // 变量类型的特有标记
             zend_uchar  const_flags, // 常量类型标记
