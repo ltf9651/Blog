@@ -57,6 +57,7 @@
     - [22 | 高可用](https://github.com/ltf9651/Blog/blob/master/MySQL45/22.md)
     - [23 | 备库延迟](https://github.com/ltf9651/Blog/blob/master/MySQL45/23.md)
     - [24 | GTID](https://github.com/ltf9651/Blog/blob/master/MySQL45/24.md)
+    - [25 | 读写分离](https://github.com/ltf9651/Blog/blob/master/MySQL45/25.md)
 
 ## Server
 
