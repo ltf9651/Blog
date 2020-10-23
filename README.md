@@ -53,6 +53,10 @@
     - [18 | 幻读](https://github.com/ltf9651/Blog/blob/master/MySQL45/18.md)
     - [19 | next-key lock](https://github.com/ltf9651/Blog/blob/master/MySQL45/19.md)
     - [20 | 数据持久化](https://github.com/ltf9651/Blog/blob/master/MySQL45/20.md)
+    - [21 | 主备一致性](https://github.com/ltf9651/Blog/blob/master/MySQL45/21.md)
+    - [22 | 高可用](https://github.com/ltf9651/Blog/blob/master/MySQL45/22.md)
+    - [23 | 备库延迟](https://github.com/ltf9651/Blog/blob/master/MySQL45/23.md)
+    - [24 | GTID](https://github.com/ltf9651/Blog/blob/master/MySQL45/24.md)
 
 ## Server
 
