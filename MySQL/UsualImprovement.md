@@ -1,6 +1,7 @@
-## 常见业务的SQL优化
+## 常见业务的 SQL 优化
 
 1. 大数据量分页
+
     ```sql
     SELECT
 	comment_id,
@@ -14,7 +15,8 @@
     10;
     ```
 
-    优化方式①：使用联合索引index(p_id, state) (区分度：p_id > state)
+    优化方式①：使用联合索引 index(p_id, state) （区分度：p_id > state)
+
     ```sql
     SELECT
 	t.comment_id,
@@ -36,7 +38,8 @@
     // 先做一个子查询查出 id（只会在索引里面扫描），然后关联查询，这样扫描的行数是限定的。而不会扫描表前面所有的行。
     ```
 
-    优化方式②：分段扫描，循环翻页的时候会记录下次查询的起始id
+    优化方式②：分段扫描，循环翻页的时候会记录下次查询的起始 id
+
     ```sql
     SELECT
 	comment_id,
@@ -51,17 +54,20 @@
     ```
 
     优化方式③：延迟查询
+
     ```sql
     select * from table INNER JOIN (select id from table limit 100000, 10) USING(id)
     ```
 
     优化方式④：查询分解
+
     ```sql
     select id from table limit 10000, 10;
     select * from table where id in(213,5141,...)
     ```
 
 1. 删除重复数据
+
     ```sql
     CREATE TABLE bak_table_20180101 AS SELECT
 	*
@@ -93,11 +99,12 @@
     ```
 
 1. 分区间统计
-    - 先找order表， group by customer_id as b
+    - 先找 order 表， group by customer_id as b
     - 使用 case when 进行分区键 as a
     - a left join b on a.customer_id = b.customer_id
 
 1. 优化 `not in` ， '>'， '<'
+
     ```sql
     // 查询所有没有产生过消费的用户信息
     SELECT
@@ -127,6 +134,7 @@
     ```
 
 1. 使用汇总表优化查询
+
     ```sql
    SELECT
 	count(*)
@@ -161,16 +169,16 @@
 
 1. 千万计表的优化
     - 表非存储在连续的物理空间上，而是由链式存储在多个碎片的物理空间上
-    - 优化方式1：对表拆分，减少字段数，优化表结构
-      - 水平拆分：RANGE、HASH取模，具有IO瓶颈
+    - 优化方式 1：对表拆分，减少字段数，优化表结构
+      - 水平拆分：RANGE、HASH 取模，具有 IO 瓶颈
       - 垂直拆分：表拆分后放于多个服务器上
         - ID 1-10000 `select,limit,order by`
         - ID 10001-20000 `select,limit,order by`
         - ID 20001-30000 `select,limit,order by`
         - 将上述三条结果集合并，再次排序
-    - 优化方式2：调整字段顺序与索引顺序一致
+    - 优化方式 2：调整字段顺序与索引顺序一致
 
 1. `in`和`exists`
     - `in` 适用于小表
     - `exists` 适用于大表
-    - `not exists` > `not in`，无论表的大小（`not in`会进行全表扫描，无法使用索引)
+    - `not exists` > `not in`，无论表的大小（`not in`会进行全表扫描，无法使用索引）
