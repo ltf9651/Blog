@@ -61,6 +61,8 @@
     - [26 | 健康检查](https://github.com/ltf9651/Blog/blob/master/MySQL45/26.md)
     - [27 | 误删数据处理](https://github.com/ltf9651/Blog/blob/master/MySQL45/27.md)
     - [28 | kill](https://github.com/ltf9651/Blog/blob/master/MySQL45/28.md)
+    - [29 | 内存占用](https://github.com/ltf9651/Blog/blob/master/MySQL45/29.md)
+    - [30 | join](https://github.com/ltf9651/Blog/blob/master/MySQL45/30.md)
 
 ## Server
 
