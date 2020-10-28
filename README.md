@@ -63,6 +63,8 @@
     - [28 | kill](https://github.com/ltf9651/Blog/blob/master/MySQL45/28.md)
     - [29 | 内存占用](https://github.com/ltf9651/Blog/blob/master/MySQL45/29.md)
     - [30 | join](https://github.com/ltf9651/Blog/blob/master/MySQL45/30.md)
+    - [31 | 临时表](https://github.com/ltf9651/Blog/blob/master/MySQL45/31.md)
+    - [32 | Memory 引擎](https://github.com/ltf9651/Blog/blob/master/MySQL45/32.md)
 
 ## Server
 
