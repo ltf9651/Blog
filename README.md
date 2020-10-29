@@ -65,6 +65,8 @@
     - [30 | join](https://github.com/ltf9651/Blog/blob/master/MySQL45/30.md)
     - [31 | 临时表](https://github.com/ltf9651/Blog/blob/master/MySQL45/31.md)
     - [32 | Memory 引擎](https://github.com/ltf9651/Blog/blob/master/MySQL45/32.md)
+    - [33 | 快速复制表](https://github.com/ltf9651/Blog/blob/master/MySQL45/33.md)
+    - [34 | 分区表](https://github.com/ltf9651/Blog/blob/master/MySQL45/34.md)
 
 ## Server
 
