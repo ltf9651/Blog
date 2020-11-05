@@ -2,11 +2,13 @@
 
 ### 双向链表
 
+对于双链表中的每个节点，不仅仅存储自己的信息，还要保存前驱和后继节点的地址
+
 ```php
 SplDoublyLinkedList implements Iterator , ArrayAccess , Countable {    /* 方法 */
     public __construct ( void )
     public void add ( mixed $index , mixed $newval )
-    public mixed bottom ( void )//双链表的尾部节点
+    public mixed bottom ( void )//双链表的尾部节点(最先添加到链表的节点)
     public int count ( void )//双联表元素的个数
     public mixed current ( void )//当前记录
     public int getIteratorMode ( void ) //获取迭代模式
@@ -24,7 +26,7 @@ SplDoublyLinkedList implements Iterator , ArrayAccess , Countable {    /* 方法
     public string serialize ( void )//序列化存储
     public void setIteratorMode ( int $mode )//设置迭代模式
     public mixed shift ( void )//双链表的头部移除元素
-    public mixed top ( void )//双链表的头部节点
+    public mixed top ( void )//双链表的头部节点(最后添加到链表的节点)
     public void unserialize ( string $serialized )//反序列化
     public void unshift ( mixed $value )//双链表的头部添加元素
     public bool valid ( void )//检查双链表是否还有节点
@@ -114,6 +116,8 @@ echo "<br /><br />";
 
 ### 堆
 
+堆 (Heap) 就是为了实现优先队列而设计的一种数据结构，它是通过构造二叉堆（二叉树的一种）实现。根节点最大的堆叫做最大堆或大根堆（SplMaxHeap），根节点最小的堆叫做最小堆或小根堆（SplMinHeap）。二叉堆还常用于排序（堆排序）
+
 ```php
 abstract SplHeap implements Iterator , Countable {
     /* 方法 用法同双向链表一致 */
@@ -154,6 +158,8 @@ foreach ($obj as $item) {
 ```
 
 ### 阵列
+
+优先队列也是非常实用的一种数据结构，可以通过加权对值进行排序，由于排序在 php 内部实现，业务代码中将精简不少而且更高效。通过 `SplPriorityQueue::setExtractFlags(int  $flag)` 设置提取方式可以提取数据（等同最大堆）、优先级、和两者都提取的方式
 
 ```php
 SplFixedArray implements Iterator , ArrayAccess , Countable {
@@ -200,6 +206,8 @@ try{
 ```
 
 ### 映射
+
+存储对象
 
 ```php
 SplObjectStorage implements Countable , Iterator , Serializable , ArrayAccess {
