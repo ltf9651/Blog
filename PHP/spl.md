@@ -108,7 +108,7 @@ echo '<br /><br />';
 $queue = new SplQueue();//继承自SplDoublyLinkedList类
 $queue->enqueue("a<br />");//插入一个节点到队列里面的Top位置
 $queue->enqueue("b<br />");
-$queue->offsetSet(0,'A');//堆栈的offset=0是Top所在的位置，offset=1是Top位置节点靠近bottom位置的相邻节点，以此类推
+$queue->offsetSet(0,'A');//队列的offset=0是Bottom所在的位置，offset=1是Bottom位置节点靠近top位置的相邻节点，以此类推
 echo $queue->dequeue();
 echo $queue->dequeue();
 echo "<br /><br />";
