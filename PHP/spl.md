@@ -268,3 +268,48 @@ while($container->valid()) {
     $container->next();
 }
 ```
+
+### MultipleIterator
+
+```php
+<?php
+$idIter = new ArrayIterator(array('1', '2'));
+$nameIter = new ArrayIterator(array('张三', '李四'));
+$ageIter = new ArrayIterator(array(12, 56));
+$mit = new MultipleIterator(MultipleIterator::MIT_KEYS_ASSOC);
+$mit->attachIterator($idIter, 'id');
+$mit->attachIterator($nameIter, 'name');
+$mit->attachIterator($ageIter, 'age');
+
+foreach ($mit as $k => $value) {
+    print_r($value);
+}
+```
+
+### FileSystemIterator
+
+```php
+<?php
+date_default_timezone_set('PRC');
+$it = new FilesystemIterator('.');
+foreach ($it as $finfo) {
+    echo $finfo->getFilename();
+    echo $finfo->getSize();
+    echo date('Y-m-d H:i:s', $finfo->getMtime()) . PHP_EOL;
+}
+```
+
+### SplFileInfo
+
+```php
+date_default_timezone_set('PRC');
+$file = new SplFileInfo('tmp.txt');
+$file->getCTime();
+$file->getMTime();
+$fileObj = $file->openFile('r');
+while ($fileObj->valid()) {
+    echo $fileObj->fgets();
+}
+$fileObj = null; // fclose
+$file = null;
+```
