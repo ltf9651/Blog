@@ -35,7 +35,7 @@ echo $a; // $a = 1;
 
 - 性能：`array_key_exists` > `in_array`，时间复杂度 O(1) : O(n)
 
-- 性能：`(int)` > `intval`
+- 性能：`(int)` > `intval`， `mt_rand` > `rand`
 
 - 常量定义
   + const：语言结构，可以定义类常量，速度更快
