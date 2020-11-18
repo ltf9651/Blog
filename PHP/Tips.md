@@ -33,7 +33,7 @@ echo $a; // $a = 1;
 0 == 0.0 == '' == '0' == false == array() == null
 ```
 
-- 性能：`array_key_exists` > `in_array`，时间复杂度O(1) : O(n)
+- 性能：`array_key_exists` > `in_array`，时间复杂度 O(1) : O(n)
 
 - 常量定义
   + const：语言结构，可以定义类常量，速度更快
@@ -170,4 +170,30 @@ object(A)[3]
  object(B)[4]
   public 'val' => int 10  b->val不受影响
 */
+```
+
+### 循环优化
+
+```php
+    $options = [];
+    foreach ($configurationSources as $source) {
+    /* something happens here */
+    $options = array_merge($options, $source->getOptions());
+    }
+
+    //优化，节省内存、时间
+    $options = [];
+    foreach ($configurationSources as $source) {
+        /* something happens here */
+        $options[] = $source->getOptions(); // <- yes, we'll use a little bit more memory
+    }
+
+    /* PHP below 5.6 */
+    $options = call_user_func_array('array_merge', $options + [[]]); // the nested empty array covers cases when no loops were made, must be second operand
+
+    /* PHP 5.6+: more friendly to refactoring as less magic involved */
+    $options = array_merge([], ...$options); // the empty array covers cases when no loops were made
+
+    /* PHP 7.4+: array_merge now accepts to be called without arguments. It will work even if $options is empty */
+    $options = array_merge(...$options);
 ```
