@@ -13,6 +13,7 @@
   + [PHP实现TCP客户端与服务端](https://github.com/ltf9651/Blog/blob/master/PHP/TCP-socket.md)
   + [美团分布式ID](https://mp.weixin.qq.com/s?__biz=MzIyODE5NjUwNQ==&mid=2653320315&idx=2&sn=7ebf531d04de1159ff055d1d5433c4b8&chksm=f3877d8dc4f0f49b2610cd0382d64df3ae103378b7d2c4d76b40416394a40fe246b3f6737561&scene=126&sessionid=1591319724&key=5cb5aa6ea207af94852e243cabfcdaaea39976c53290df17c8319ae578f3c7f67edc868727d1709f413cf1fe49426a88549fea2c491609bba504158a59a0524ab475389485f34fb90474d6b51856ea0e&ascene=1&uin=MjA3MTcxNDkwOA%3D%3D&devicetype=Windows+7+x64&version=6209007b&lang=zh_CN&exportkey=ARIaSU6P%2BDC7C4m5zrMapSo%3D&pass_ticket=qJvuS3%2F7WU%2BHz9YlCOdwmnr%2ByIhnpwirJ69PodCULodkEQESMrdrbir8hOYDvjOI)
   + [SPL库](https://github.com/ltf9651/Blog/blob/master/PHP/spl.md)
+  + [Memcached](https://github.com/ltf9651/Blog/blob/master/PHP/Memcached.md)
 
 ## MySQL
 
@@ -193,3 +194,11 @@
   + [16 | 多线程编程](https://github.com/ltf9651/Blog/blob/master/Linux/16.md)
   + [17 | 进程池和线程池](https://github.com/ltf9651/Blog/blob/master/Linux/17.md)
   + [18 | 服务器调试和测试](https://github.com/ltf9651/Blog/blob/master/Linux/18.md)
+
+## 高并发系统设计
+
+  + [01 | 通用设计方法](https://github.com/ltf9651/Blog/blob/master/HighConcurrencySystemDesign/01.md)
+  + [02 | 架构分层](https://github.com/ltf9651/Blog/blob/master/HighConcurrencySystemDesign/02.md)
+  + [03 | 高性能](https://github.com/ltf9651/Blog/blob/master/HighConcurrencySystemDesign/03.md)
+  + [04 | 高可用性](https://github.com/ltf9651/Blog/blob/master/HighConcurrencySystemDesign/04.md)
+  + [05 | 高可扩展性](https://github.com/ltf9651/Blog/blob/master/HighConcurrencySystemDesign/05.md)
