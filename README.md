@@ -14,6 +14,7 @@
   + [美团分布式ID](https://mp.weixin.qq.com/s?__biz=MzIyODE5NjUwNQ==&mid=2653320315&idx=2&sn=7ebf531d04de1159ff055d1d5433c4b8&chksm=f3877d8dc4f0f49b2610cd0382d64df3ae103378b7d2c4d76b40416394a40fe246b3f6737561&scene=126&sessionid=1591319724&key=5cb5aa6ea207af94852e243cabfcdaaea39976c53290df17c8319ae578f3c7f67edc868727d1709f413cf1fe49426a88549fea2c491609bba504158a59a0524ab475389485f34fb90474d6b51856ea0e&ascene=1&uin=MjA3MTcxNDkwOA%3D%3D&devicetype=Windows+7+x64&version=6209007b&lang=zh_CN&exportkey=ARIaSU6P%2BDC7C4m5zrMapSo%3D&pass_ticket=qJvuS3%2F7WU%2BHz9YlCOdwmnr%2ByIhnpwirJ69PodCULodkEQESMrdrbir8hOYDvjOI)
   + [SPL库](https://github.com/ltf9651/Blog/blob/master/PHP/spl.md)
   + [Memcached](https://github.com/ltf9651/Blog/blob/master/PHP/Memcached.md)
+  + [TCC 分布式事务]](https://www.cnblogs.com/jajian/p/10014145.html)
 
 ## MySQL
 
