@@ -15,7 +15,7 @@
   + [SPL库](https://github.com/ltf9651/Blog/blob/master/PHP/spl.md)
   + [Memcached](https://github.com/ltf9651/Blog/blob/master/PHP/Memcached.md)
   + [2PC/3PC 事务](https://www.cnblogs.com/qdhxhz/p/11167025.html)
-  + [TCC 分布式事务]](https://www.cnblogs.com/jajian/p/10014145.html)
+  + [TCC 分布式事务](https://www.cnblogs.com/jajian/p/10014145.html)
 
 ## MySQL
 
