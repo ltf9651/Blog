@@ -89,15 +89,15 @@
 
 ## 数据结构与算法
 
-  + [数据结构与算法之美](https://github.com/ltf9651/Blog/tree/master/DS&Algorithms/Beauty)
-  + [算法图解](https://github.com/ltf9651/Blog/tree/master/DS&Algorithms/GrokkingAlgorithms)
+   + [数据结构与算法之美](https://github.com/ltf9651/Blog/tree/master/DS&Algorithms/Beauty)
+   + [算法图解](https://github.com/ltf9651/Blog/tree/master/DS&Algorithms/GrokkingAlgorithms)
 
-### Code
+- Code
 
    + [双向链表实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/DoubleLinkedList.py)
-  + [FIFO缓存实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/FIFOCache.py)
-  + [LFU缓存实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/LFUCache.py)
-  + [LRU缓存实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/LRUCache.py)
+   + [FIFO缓存实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/FIFOCache.py)
+   + [LFU缓存实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/LFUCache.py)
+   + [LRU缓存实现](https://github.com/ltf9651/Blog/blob/master/DS&Algorithms/implementation/LRUCache.py)
 
 ## 秒杀系统设计
 
