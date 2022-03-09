@@ -34,6 +34,7 @@
     - [MySQL复制](https://github.com/ltf9651/Blog/blob/master/MySQL/MySQLMS.md)
     - [缓解读写压力](https://github.com/ltf9651/Blog/blob/master/MySQL/RelievePressure.md)
     - [索引优化](https://github.com/ltf9651/Blog/blob/master/MySQL/BTreeHash.md)
+    - [事务特效及实现](https://github.com/ltf9651/Blog/blob/master/MySQL/ACID.md)
 
   + 探究原理
     - [01 | 一条SQL查询语句是如何执行的？](https://github.com/ltf9651/Blog/blob/master/MySQL45/01.md)
