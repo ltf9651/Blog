@@ -229,3 +229,5 @@
   + [03 | K8s本质](https://github.com/ltf9651/Blog/blob/master/K8s/03.md)
   + [04 | kubeadm](https://github.com/ltf9651/Blog/blob/master/K8s/04.md)
   + [05 | Pod](https://github.com/ltf9651/Blog/blob/master/K8s/05.md)
+  + [06 | 编排](https://github.com/ltf9651/Blog/blob/master/K8s/06.md)
+  + [07 | StatefulSet](https://github.com/ltf9651/Blog/blob/master/K8s/07.md)
