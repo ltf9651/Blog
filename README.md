@@ -234,4 +234,5 @@
 
 ## Elastic Stack
 
-  + [01 | 前言](https://github.com/ltf9651/Blog/blob/master/ES/01.md)
+  + [01 | 常见术语](https://github.com/ltf9651/Blog/blob/master/ES/01.md)
+  + [02 | 倒排索引与分词](https://github.com/ltf9651/Blog/blob/master/ES/02.md)
