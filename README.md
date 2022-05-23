@@ -237,4 +237,5 @@
   + [01 | 常见术语](https://github.com/ltf9651/Blog/blob/master/ES/01.md)
   + [02 | 倒排索引与分词](https://github.com/ltf9651/Blog/blob/master/ES/02.md)
   + [03 | Mapping](https://github.com/ltf9651/Blog/blob/master/ES/03.md)
-  + [04 | SearchAPI](https://github.com/ltf9651/Blog/blob/master/ES/04.md)
+  + [04 | SearchAPI-URI SEARCH](https://github.com/ltf9651/Blog/blob/master/ES/04.md)
+  + [05 | SearchAPI-QueryDSL](https://github.com/ltf9651/Blog/blob/master/ES/05.md)
