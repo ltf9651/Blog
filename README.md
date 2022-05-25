@@ -239,3 +239,4 @@
   + [03 | Mapping](https://github.com/ltf9651/Blog/blob/master/ES/03.md)
   + [04 | SearchAPI-URI SEARCH](https://github.com/ltf9651/Blog/blob/master/ES/04.md)
   + [05 | SearchAPI-QueryDSL](https://github.com/ltf9651/Blog/blob/master/ES/05.md)
+  + [06 | 分布式](https://github.com/ltf9651/Blog/blob/master/ES/06.md)
