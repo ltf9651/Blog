@@ -240,3 +240,5 @@
   + [04 | SearchAPI-URI SEARCH](https://github.com/ltf9651/Blog/blob/master/ES/04.md)
   + [05 | SearchAPI-QueryDSL](https://github.com/ltf9651/Blog/blob/master/ES/05.md)
   + [06 | 分布式](https://github.com/ltf9651/Blog/blob/master/ES/06.md)
+  + [07 | 排序](https://github.com/ltf9651/Blog/blob/master/ES/07.md)
+  + [08 | 分页与遍历](https://github.com/ltf9651/Blog/blob/master/ES/08.md)
