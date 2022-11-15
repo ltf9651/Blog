@@ -206,3 +206,52 @@ object(A)[3]
 ### strtotime
 
 时间加减计算尽量使用`strtotime`函数，直接使用数字进行加减在有东夏令时时区切换的地区会有问题
+
+### 秒杀
+
+```lua
+# redis hash 结构版
+#key: itemID
+#value: {total: N, ordered: M}
+
+#获取商品库存信息
+local counts = redis.call("HMGET", KEYS[1], "total", "ordered");
+#将总库存转换为数值
+local total = tonumber(counts[1])
+#将已被秒杀的库存转换为数值
+local ordered = tonumber(counts[2])
+#如果当前请求的库存量加上已被秒杀的库存量仍然小于总库存量，就可以更新库存
+if ordered + k <= total then
+    #更新已秒杀的库存量
+    redis.call("HINCRBY",KEYS[1],"ordered",k)
+    return k                             
+end
+return 0
+
+
+# 分布式锁
+//使用商品ID作为key
+key = itemID
+//使用客户端唯一标识作为value
+val = clientUniqueID
+//申请分布式锁，Timeout是超时时间
+lock =acquireLock(key, val, Timeout)
+//当拿到锁后，才能进行库存查验和扣减
+if(lock == True) {
+   //库存查验和扣减
+   availStock = DECR(key, k)
+   //库存已经扣减完了，释放锁，返回秒杀失败
+   if (availStock < 0) {
+      releaseLock(key, val)
+      return error
+   }
+   //库存扣减成功，释放锁
+   else{
+     releaseLock(key, val)
+     //订单处理
+   }
+}
+//没有拿到锁，直接返回
+else
+   return
+```
