@@ -111,10 +111,10 @@
   + [08 | 兜底Plan B](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/08.md)
   + [09 | 脑图](https://github.com/ltf9651/Blog/blob/master/SecKillSystemDesign/09.md)
 
-## Redis 核心原理与应用实践
+## Redis
 
   + 应用
-    - [Redis应用场景](https://github.com/ltf9651/Blog/blob/master/Redis/01.md)
+    - [Redis基础](https://github.com/ltf9651/Blog/blob/master/Redis/01.md)
     - [Redis基础数据结构](https://github.com/ltf9651/Blog/blob/master/Redis/02.md)
     - [Redis的妙用](https://www.toutiao.com/a6644418545998365191/?tt_from=mobile_qq&utm_campaign=client_share&timestamp=1547033403&app=news_article_lite&utm_source=mobile_qq&iid=56654969600&utm_medium=toutiao_android&group_id=6644418545998365191)
     - [位图](https://github.com/ltf9651/Blog/blob/master/Redis/43.md)
@@ -129,14 +129,15 @@
     - [通信协议](https://github.com/ltf9651/Blog/blob/master/Redis/10.md)
     - [Redis持久化](https://github.com/ltf9651/Blog/blob/master/Redis/11.md)
     - [管道](https://github.com/ltf9651/Blog/blob/master/Redis/12.md)
-    - [事务](https://github.com/ltf9651/Blog/blob/master/Redis/13.md)
+    - [ACID事务](https://github.com/ltf9651/Blog/blob/master/Redis/13.md)
     - [PubSub](https://github.com/ltf9651/Blog/blob/master/Redis/14.md)
     - [内存分配](https://github.com/ltf9651/Blog/blob/master/Redis/15.md)
     - [主从同步](https://github.com/ltf9651/Blog/blob/master/Redis/16.md)
+    - [波动](https://github.com/ltf9651/Blog/blob/master/Redis/45.md)
+    - [内存空间存储效率](https://github.com/ltf9651/Blog/blob/master/Redis/46.md)
   + 集群
     - [哨兵](https://github.com/ltf9651/Blog/blob/master/Redis/17.md)
-    - [Codis](https://github.com/ltf9651/Blog/blob/master/Redis/18.md)
-    - [Cluster](https://github.com/ltf9651/Blog/blob/master/Redis/19.md)
+    - [切片集群](https://github.com/ltf9651/Blog/blob/master/Redis/18.md)
   + 拓展
     - [Stream](https://github.com/ltf9651/Blog/blob/master/Redis/20.md)
     - [Info](https://github.com/ltf9651/Blog/blob/master/Redis/21.md)
@@ -147,8 +148,11 @@
     - [安全](https://github.com/ltf9651/Blog/blob/master/Redis/26.md)
     - [Spiped](https://github.com/ltf9651/Blog/blob/master/Redis/27.md)
     - [LUA](https://github.com/ltf9651/Blog/blob/master/Redis/28.md)
-    - [命令行工具](https://github.com/ltf9651/Blog/blob/master/Redis/29.md)
+    - [运维工具](https://github.com/ltf9651/Blog/blob/master/Redis/29.md)
+    - [CPU结构](https://github.com/ltf9651/Blog/blob/master/Redis/44.md)
+    - [脑裂](https://github.com/ltf9651/Blog/blob/master/Redis/47.md)
   + 源码
+    - [数据结构](https://github.com/ltf9651/Blog/blob/master/Redis/19.md)
     - [字符串内部结构](https://github.com/ltf9651/Blog/blob/master/Redis/30.md)
     - [字典内部结构](https://github.com/ltf9651/Blog/blob/master/Redis/31.md)
     - [压缩列表](https://github.com/ltf9651/Blog/blob/master/Redis/32.md)
@@ -157,7 +161,7 @@
     - [进奏列表](https://github.com/ltf9651/Blog/blob/master/Redis/35.md)
     - [基数树](https://github.com/ltf9651/Blog/blob/master/Redis/36.md)
     - [LFU vs LRU](https://github.com/ltf9651/Blog/blob/master/Redis/37.md)
-    - [异步删除](https://github.com/ltf9651/Blog/blob/master/Redis/38.md)
+    - [异步机制](https://github.com/ltf9651/Blog/blob/master/Redis/38.md)
     - [深入字典遍历](https://github.com/ltf9651/Blog/blob/master/Redis/39.md)
     - [HyperLogLog 内部](https://github.com/ltf9651/Blog/blob/master/Redis/40.md)
 
