@@ -256,3 +256,12 @@ if(lock == True) {
 else
    return
 ```
+
+### 算法
+
+对于一般的完整性校验，推荐使用 SHA-256 或 BLAKE2b。
+对于需要更高安全强度的场景，推荐使用 SHA-384, SHA-512, SHA3-256, SHA3-384, SHA3-512 或 BLAKE3。
+密码存储场景必必须使用专门的密码哈希函数，例如 bcrypt 、scrypt或者Argon2，且必须加盐（SALT）。
+不推荐使用 MD5
+SHA-1
+CRC32
